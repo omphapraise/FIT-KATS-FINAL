@@ -1,0 +1,63 @@
+{
+  "file": "evidence_grading.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "label": "High / strong",
+      "meaning": "Consistent systematic reviews, meta-analyses, high-quality consensus or guideline evidence.",
+      "how_big_kat_should_use_it": "Default basis for broad recommendations; still individualise.",
+      "id": "high_strong",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "evidence grading"
+      }
+    },
+    {
+      "label": "Moderate",
+      "meaning": "Evidence supports a direction but methods, populations or estimates vary.",
+      "how_big_kat_should_use_it": "Use with context; avoid false precision.",
+      "id": "moderate",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "evidence grading"
+      }
+    },
+    {
+      "label": "Limited / emerging",
+      "meaning": "Small samples, indirect evidence, inconsistent results or few trials.",
+      "how_big_kat_should_use_it": "Present as tentative; do not build rigid rules around it.",
+      "id": "limited_emerging",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "evidence grading"
+      }
+    },
+    {
+      "label": "Professional consensus",
+      "meaning": "Formal position statement or guideline informed by evidence and expert review.",
+      "how_big_kat_should_use_it": "Use as practical standard while noting scope and date.",
+      "id": "professional_consensus",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "evidence grading"
+      }
+    },
+    {
+      "label": "Coaching application",
+      "meaning": "Practical programming convention not uniquely established as optimal by trials.",
+      "how_big_kat_should_use_it": "Label as a useful starting point, then monitor response.",
+      "id": "coaching_application",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "evidence grading"
+      }
+    }
+  ]
+}

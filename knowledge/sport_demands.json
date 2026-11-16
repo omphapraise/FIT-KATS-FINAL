@@ -1,0 +1,108 @@
+{
+  "file": "sport_demands.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "athlete_note": "Athlete programmes must account for training age, position/event, competition calendar, practice volume, injury history and access to qualified coaches. Do not assume bodybuilding or powerlifting templates are appropriate for team-sport athletes.",
+  "records": [
+    {
+      "sport": "Football / soccer",
+      "important_physical_qualities": "Aerobic base, repeated sprint ability, acceleration, deceleration, change of direction, unilateral strength",
+      "programme_design_implications": "Coordinate gym sessions around technical/tactical practice and match day; manage sprint and lower-body load",
+      "id": "football_soccer",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Rugby",
+      "important_physical_qualities": "Max strength, power, acceleration, repeated high-intensity efforts, collision tolerance",
+      "programme_design_implications": "Position-specific demands; qualified coaching; contact and match load dominate fatigue planning",
+      "id": "rugby",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Basketball",
+      "important_physical_qualities": "Jumping, acceleration, deceleration, lateral movement, repeated efforts, aerobic recovery",
+      "programme_design_implications": "Include landing mechanics, strength, jumps/sprints with adequate recovery",
+      "id": "basketball",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Tennis",
+      "important_physical_qualities": "Repeated accelerations, rotational power, shoulder/forearm capacity, aerobic recovery",
+      "programme_design_implications": "Manage court volume; use multidirectional work and shoulder/scapular strength",
+      "id": "tennis",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Athletics / sprint",
+      "important_physical_qualities": "Acceleration, maximal velocity, elastic qualities, high force and technique",
+      "programme_design_implications": "Sprint quality requires freshness; high-intensity exposures need careful spacing",
+      "id": "athletics_sprint",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Distance running",
+      "important_physical_qualities": "Aerobic capacity, running economy, tissue tolerance, pacing",
+      "programme_design_implications": "Gradual mileage progression; strength complements rather than replaces running",
+      "id": "distance_running",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Swimming",
+      "important_physical_qualities": "Aerobic/anaerobic capacity, shoulder function, trunk control, technique",
+      "programme_design_implications": "Pool training is primary; dryland work supports force and resilience",
+      "id": "swimming",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Boxing / martial arts",
+      "important_physical_qualities": "Power, repeat-effort conditioning, footwork, trunk/hip rotation, skill",
+      "programme_design_implications": "Conditioning must not compromise technical practice; coach-led sparring and safety",
+      "id": "boxing_martial_arts",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    },
+    {
+      "sport": "Cycling",
+      "important_physical_qualities": "Aerobic capacity, sustained power, local muscular endurance",
+      "programme_design_implications": "Bike volume and intensity drive adaptation; strength training can support general force capacity",
+      "id": "cycling",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "6"
+      }
+    }
+  ]
+}

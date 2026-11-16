@@ -1,0 +1,144 @@
+{
+  "file": "movement_patterns.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "squat_knee_dominant",
+      "name": "Squat / knee-dominant",
+      "definition": "Knee and hip flexion-extension under load",
+      "examples": [
+        "Goblet squat",
+        "back squat",
+        "leg press"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "hinge_hip_dominant",
+      "name": "Hinge / hip-dominant",
+      "definition": "Hip flexion-extension with controlled trunk and knee angle",
+      "examples": [
+        "RDL",
+        "deadlift",
+        "hip thrust"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "horizontal_push",
+      "name": "Horizontal push",
+      "definition": "Pressing away from torso",
+      "examples": [
+        "Bench press",
+        "push-up"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "vertical_push",
+      "name": "Vertical push",
+      "definition": "Pressing overhead",
+      "examples": [
+        "Overhead press",
+        "landmine press"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "horizontal_pull",
+      "name": "Horizontal pull",
+      "definition": "Pulling load toward torso",
+      "examples": [
+        "Cable row",
+        "chest-supported row"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "vertical_pull",
+      "name": "Vertical pull",
+      "definition": "Pulling body/load downward",
+      "examples": [
+        "Pulldown",
+        "pull-up"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "single_leg_split_stance",
+      "name": "Single-leg / split stance",
+      "definition": "Unilateral or asymmetrical lower-body loading",
+      "examples": [
+        "Split squat",
+        "step-up",
+        "single-leg RDL"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "carry_locomotion",
+      "name": "Carry / locomotion",
+      "definition": "Move while controlling an external load",
+      "examples": [
+        "Farmer carry",
+        "suitcase carry"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "trunk_anti_movement",
+      "name": "Trunk anti-movement",
+      "definition": "Resist unwanted extension, rotation or lateral flexion",
+      "examples": [
+        "Dead bug",
+        "Pallof press",
+        "side plank"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    },
+    {
+      "id": "locomotor_conditioning",
+      "name": "Locomotor conditioning",
+      "definition": "Cyclic movement for aerobic / anaerobic demands",
+      "examples": [
+        "Run",
+        "cycle",
+        "row",
+        "swim"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.2"
+      }
+    }
+  ]
+}

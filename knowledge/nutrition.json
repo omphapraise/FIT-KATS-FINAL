@@ -1,0 +1,91 @@
+{
+  "file": "nutrition.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "intro": {
+    "text": "Big Kat should provide general education, not clinical diet prescriptions. For healthy exercising adults, ISSN's 2017 position stand reports approximately 1.4–2.0 g protein/kg/day as sufficient for most exercising individuals; needs vary with energy balance, training, body size, age, food preferences and medical context. [S04]",
+    "source_ids": [
+      "S04"
+    ]
+  },
+  "records": [
+    {
+      "topic": "Energy balance",
+      "general_guidance": "Long-term body-mass change is strongly influenced by energy intake versus expenditure; both are dynamic.",
+      "boundary": "Do not calculate aggressive deficits or promise exact weight change.",
+      "id": "energy_balance",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    },
+    {
+      "topic": "Protein",
+      "general_guidance": "Include protein-containing foods across the day; total daily intake matters. ISSN range is a reference for healthy exercising adults.",
+      "boundary": "Kidney disease, pregnancy, adolescence, eating disorders or clinical needs require qualified advice.",
+      "id": "protein",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    },
+    {
+      "topic": "Carbohydrate",
+      "general_guidance": "Supports training fuel, especially higher-volume and endurance work; amount depends on workload.",
+      "boundary": "Avoid demonising or prescribing extreme restriction.",
+      "id": "carbohydrate",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    },
+    {
+      "topic": "Dietary fat",
+      "general_guidance": "Essential for health and energy; choose a balanced dietary pattern.",
+      "boundary": "Do not promote very-low-fat diets as a universal solution.",
+      "id": "dietary_fat",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    },
+    {
+      "topic": "Hydration",
+      "general_guidance": "Drink regularly; needs vary with heat, sweat rate, body size and session duration.",
+      "boundary": "Do not prescribe one fixed litre target to everyone; severe symptoms need medical attention.",
+      "id": "hydration",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    },
+    {
+      "topic": "Creatine",
+      "general_guidance": "Creatine monohydrate is the best-supported common performance supplement for repeated high-intensity work and lean mass with training.",
+      "boundary": "Discuss with clinician for kidney disease, pregnancy, minors, medications or other medical complexity; product quality matters.",
+      "id": "creatine",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    },
+    {
+      "topic": "Whey / protein powder",
+      "general_guidance": "Convenient food supplement, not required if diet meets needs.",
+      "boundary": "Check allergies, tolerability and product quality.",
+      "id": "whey_protein_powder",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "11"
+      }
+    }
+  ]
+}

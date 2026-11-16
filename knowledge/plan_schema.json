@@ -1,0 +1,208 @@
+{
+  "file": "plan_schema.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "note": "ids in_* = generator inputs, other ids = plan output fields",
+  "records": [
+    {
+      "input": "Primary goal",
+      "why_it_matters": "Determines programme emphasis",
+      "example_values": "Muscle gain; strength; fat loss/general fitness; endurance; sport performance; mobility/function",
+      "id": "in_primary_goal",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Age band",
+      "why_it_matters": "Safety and developmental considerations",
+      "example_values": "Under 18; 18–64; 65+ (exact age only when needed)",
+      "id": "in_age_band",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Gender / sex-related context",
+      "why_it_matters": "May inform relevant physiology or user preference but should not dictate exercise choice",
+      "example_values": "Ask respectfully and only use when it materially changes guidance",
+      "id": "in_gender_sex_related_context",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Experience",
+      "why_it_matters": "Controls complexity, volume and coaching needs",
+      "example_values": "Beginner; intermediate; advanced; returning after break",
+      "id": "in_experience",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Days available",
+      "why_it_matters": "Determines split and frequency",
+      "example_values": "2, 3, 4, 5, 6",
+      "id": "in_days_available",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Session duration",
+      "why_it_matters": "Controls exercise count and volume",
+      "example_values": "30, 45, 60, 90 minutes",
+      "id": "in_session_duration",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Equipment / location",
+      "why_it_matters": "Controls exercise pool",
+      "example_values": "Full gym; home dumbbells; bands; bodyweight; barbell",
+      "id": "in_equipment_location",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Limitations / pain / injury",
+      "why_it_matters": "Safety and substitutions",
+      "example_values": "Free text; route concerning symptoms to safety flow",
+      "id": "in_limitations_pain_injury",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Preferences",
+      "why_it_matters": "Improves adherence",
+      "example_values": "Likes/dislikes; exercises to avoid; preferred cardio",
+      "id": "in_preferences",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "input": "Sport / event (if relevant)",
+      "why_it_matters": "Adds specificity and season scheduling",
+      "example_values": "Sport, position/event, practice and match schedule",
+      "id": "in_sport_event_if_relevant",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "plan_id",
+      "required_content": "Unique stable identifier",
+      "id": "plan_id",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "user_profile_summary",
+      "required_content": "Only user-provided/reliably known facts; no invented attributes",
+      "id": "user_profile_summary",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "goal_and_rationale",
+      "required_content": "Primary goal and explanation of programme structure",
+      "id": "goal_and_rationale",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "weekly_schedule",
+      "required_content": "Days, session order, rest days",
+      "id": "weekly_schedule",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "session_exercises",
+      "required_content": "Exercise ID, sets, reps, rest, target RIR/RPE, notes",
+      "id": "session_exercises",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "warm_up",
+      "required_content": "General warm-up and specific ramp-up guidance",
+      "id": "warm_up",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "cardio_conditioning",
+      "required_content": "Mode, frequency, duration/intensity where relevant",
+      "id": "cardio_conditioning",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "progression_rules",
+      "required_content": "How to add reps/load/sets and when to hold/reduce",
+      "id": "progression_rules",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "alternatives",
+      "required_content": "Equipment-based substitutions preserving movement intent",
+      "id": "alternatives",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "safety_notes",
+      "required_content": "Relevant restrictions and escalation",
+      "id": "safety_notes",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    },
+    {
+      "field": "review_checkpoint",
+      "required_content": "When to review completion, performance, enjoyment and recovery",
+      "id": "review_checkpoint",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "8"
+      }
+    }
+  ]
+}

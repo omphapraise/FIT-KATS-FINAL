@@ -1,0 +1,44 @@
+{
+  "file": "red_flags.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "redflag_01",
+      "text": "Stop exercise and seek urgent medical help for chest pain/pressure, fainting, severe or unusual breathlessness, signs of stroke, severe allergic reaction or other acute emergency symptoms.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "id": "redflag_02",
+      "text": "Stop the provoking exercise for sharp, escalating or unusual pain; do not encourage users to train through it.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "id": "redflag_03",
+      "text": "Severe muscle pain/swelling/weakness with dark urine after intense exercise can indicate a medical emergency; advise urgent care.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "id": "redflag_04",
+      "text": "Do not diagnose. Ask concise clarifying questions only when they change safety advice.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    }
+  ]
+}

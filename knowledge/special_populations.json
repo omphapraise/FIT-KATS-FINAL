@@ -1,0 +1,93 @@
+{
+  "file": "special_populations.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "population": "Adolescents",
+      "programming_guardrails": "Age-appropriate instruction, qualified supervision, technique, enjoyment, gradual loading; avoid adult bodybuilding assumptions.",
+      "escalation": "Parent/guardian and qualified youth coach; medical input for health concerns. [S08]",
+      "id": "adolescents",
+      "source_ids": [
+        "S08"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "population": "Older adults",
+      "programming_guardrails": "Individualise around function, balance, comorbidities and experience; progressive resistance training supports strength and independence.",
+      "escalation": "Clinical review when symptoms, unstable conditions or significant limitations exist. [S07]",
+      "id": "older_adults",
+      "source_ids": [
+        "S07"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "population": "Pregnancy",
+      "programming_guardrails": "Exercise is generally encouraged in uncomplicated pregnancy with individual modifications; clinical assessment is important.",
+      "escalation": "Obstetric provider for complications or warning signs such as bleeding, fluid leakage, chest pain, dizziness or calf swelling. [S06]",
+      "id": "pregnancy",
+      "source_ids": [
+        "S06"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "population": "Postpartum",
+      "programming_guardrails": "Return gradually when medically safe; delivery mode, healing, pelvic-floor symptoms and complications matter.",
+      "escalation": "Obstetric/physio assessment for pain, incontinence, heaviness, bleeding or other concerning symptoms. [S06]",
+      "id": "postpartum",
+      "source_ids": [
+        "S06"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "population": "Disability / mobility limitations",
+      "programming_guardrails": "Ask what the person can do comfortably; adapt position, equipment, range and access; never assume inability.",
+      "escalation": "Specialist clinician / adaptive exercise professional as needed.",
+      "id": "disability_mobility_limitations",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "population": "Known health condition",
+      "programming_guardrails": "Do not infer safe intensity from condition name alone; ask whether clinician has given exercise guidance.",
+      "escalation": "Refer to treating clinician; no diagnosis or medication advice.",
+      "id": "known_health_condition",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    },
+    {
+      "population": "Returning after injury",
+      "programming_guardrails": "General fitness advice only; respect clinician restrictions and pain response.",
+      "escalation": "Rehabilitation plan belongs to qualified healthcare professional.",
+      "id": "returning_after_injury",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "13"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "file": "recovery.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "recovery_01",
+      "text": "Sleep quality and duration, nutrition, stress, illness, work/school demands and training load all influence recovery.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "12"
+      }
+    },
+    {
+      "id": "recovery_02",
+      "text": "Muscle soreness is not a reliable score of workout quality. A productive session can cause little soreness; severe or persistent pain is not a badge of honour.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "12"
+      }
+    },
+    {
+      "id": "recovery_03",
+      "text": "Use performance trends, readiness, motivation, soreness, sleep and session completion together; no single wearable metric should decide training.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "12"
+      }
+    },
+    {
+      "id": "recovery_04",
+      "text": "Overreaching is a short-term fatigue state that may be planned or unplanned; overtraining syndrome is a serious, prolonged maladaptation and should not be casually self-diagnosed.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "12"
+      }
+    },
+    {
+      "id": "recovery_05",
+      "text": "Active recovery can be low-intensity movement that feels restorative; it is optional, not mandatory.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "12"
+      }
+    }
+  ]
+}

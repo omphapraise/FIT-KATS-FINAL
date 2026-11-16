@@ -1,0 +1,153 @@
+{
+  "file": "training_principles.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "note": "Records are bullet lists from sections Executive principles, 1.3 and 2.3; id prefix shows the origin.",
+  "records": [
+    {
+      "id": "principle_01",
+      "text": "Specificity: train the quality the user wants to improve. Strength, hypertrophy, endurance, power and sport performance overlap but are not interchangeable.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "executive"
+      }
+    },
+    {
+      "id": "principle_02",
+      "text": "Progressive, repeatable training beats novelty. Choose a plan the user can execute consistently and recover from.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "executive"
+      }
+    },
+    {
+      "id": "principle_03",
+      "text": "Individualise dose. There is no single universally optimal split, set count, rep range, weekly frequency or cardio zone for every user.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "executive"
+      }
+    },
+    {
+      "id": "principle_04",
+      "text": "Use the minimum useful complexity. Beginners usually need simple movements, manageable volume and repeatable progression; advanced users may need more precise loading and fatigue control.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "executive"
+      }
+    },
+    {
+      "id": "principle_05",
+      "text": "Safety first. Screen for red flags and relevant health constraints; do not diagnose or prescribe rehabilitation.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "executive"
+      }
+    },
+    {
+      "id": "principle_06",
+      "text": "Separate factual retrieval from personality. Humour may change the delivery, never the scientific answer or safety response.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "executive"
+      }
+    },
+    {
+      "id": "biomech_01",
+      "text": "External torque changes across an exercise's range; a machine, cable, free weight and band can load a muscle differently even when the named movement looks similar.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.3"
+      }
+    },
+    {
+      "id": "biomech_02",
+      "text": "Stable exercises often make it easier to direct effort toward a target muscle; free-weight and complex movements can add coordination and skill demands.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.3"
+      }
+    },
+    {
+      "id": "biomech_03",
+      "text": "Concentric actions shorten the muscle under load; eccentric actions lengthen it under load; isometric actions produce force without visible joint movement. All can contribute to training adaptations.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.3"
+      }
+    },
+    {
+      "id": "biomech_04",
+      "text": "Neuromuscular adaptation, skill learning, muscle size, connective-tissue adaptation and cardiovascular change occur on different timelines.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.3"
+      }
+    },
+    {
+      "id": "biomech_05",
+      "text": "ATP-PCr supports brief high-power efforts; glycolytic metabolism contributes to hard efforts lasting longer; oxidative metabolism supports sustained work and recovery. Energy systems overlap rather than switching on one at a time.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.3"
+      }
+    },
+    {
+      "id": "prog_01",
+      "text": "Double progression: keep a rep range; when all work sets reach the top of the range with target RIR and good technique, increase load modestly and rebuild reps.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.3"
+      }
+    },
+    {
+      "id": "prog_02",
+      "text": "Add sets only when progress stalls and the user is recovering well; first check adherence, technique, sleep, exercise setup and whether the current stimulus is already sufficient.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.3"
+      }
+    },
+    {
+      "id": "prog_03",
+      "text": "Progress one or a small number of variables at a time: load, reps, sets, range of motion, density or exercise difficulty.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.3"
+      }
+    },
+    {
+      "id": "prog_04",
+      "text": "Record load, reps, sets, RIR/RPE, pain flags and session completion. A plan generator needs longitudinal data to adapt responsibly.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.3"
+      }
+    },
+    {
+      "id": "prog_05",
+      "text": "Do not force weekly load increases. Maintain or reduce load when technique, readiness or recovery suggests it.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "file": "programmes.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "P01",
+      "title": "Beginner full-body, 3 days",
+      "goal_text": "Goal: learn movements, build general strength and muscle. Mon/Wed/Fri; 45–60 min; 6–8 weeks.",
+      "schedule_text": "Each session: leg press or goblet squat 2×8–12; machine chest press or incline push-up 2×8–12; seated row 2×8–12; DB RDL 2×8–10; pulldown 2×8–12; dead bug 2×6–10/side. RIR 2–4; rest 1–3 min. Add 1–2 easy walks as desired.",
+      "progression_guardrail_text": "Progression / guardrail: Progress reps first, then small load increase when technique and target RIR are stable. Keep first two weeks deliberately conservative.",
+      "goals": [
+        "general_health",
+        "strength",
+        "hypertrophy"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "level_basis": "stated in title/goal",
+      "audience": [],
+      "equipment_profile": "commercial_gym",
+      "equipment_basis": "derived: leg press, machine press, pulldown",
+      "days_per_week": 3,
+      "day_names": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "session_minutes": [
+        45,
+        60
+      ],
+      "programme_weeks": [
+        6,
+        8
+      ],
+      "target_rir": "2–4",
+      "rest": "1–3 min",
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Every session (full body)",
+          "exercises": [
+            {
+              "label": "leg press or goblet squat",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-012",
+                "EX-010"
+              ]
+            },
+            {
+              "label": "machine chest press or incline push-up",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-S001",
+                "EX-S003"
+              ]
+            },
+            {
+              "label": "seated row",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": [
+                "EX-S034"
+              ]
+            },
+            {
+              "label": "DB RDL",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–10",
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-S035"
+              ]
+            },
+            {
+              "label": "pulldown",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "vertical_pull",
+              "note": null,
+              "exercise_ids": [
+                "EX-004"
+              ]
+            },
+            {
+              "label": "dead bug",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "6–10",
+              "per_side": true,
+              "pattern_id": "trunk_anti_movement",
+              "note": null,
+              "exercise_ids": [
+                "EX-020"
+              ]
+            }
+          ]
+        }
+      ],
+      "cardio": "Add 1–2 easy walks as desired.",
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P02",
+      "title": "Beginner general fitness / fat-loss support, 3 days",
+      "goal_text": "Goal: establish sustainable routine; 3 nonconsecutive days; 45–60 min.",
+      "schedule_text": "Full-body resistance routine as P01, plus 10–20 min moderate cardio after two sessions or separate walks. Add weekly walking gradually. Do not make cardio punitive.",
+      "progression_guardrail_text": "Progression / guardrail: Focus on consistency, activity trend, strength and sustainable nutrition habits; do not promise scale rate.",
+      "goals": [
+        "fat_loss_support",
+        "general_health"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "level_basis": "stated in title",
+      "audience": [],
+      "equipment_profile": "commercial_gym",
+      "equipment_basis": "derived: same resistance routine as P01",
+      "days_per_week": 3,
+      "day_names": [
+        "3 nonconsecutive days"
+      ],
+      "session_minutes": [
+        45,
+        60
+      ],
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Full-body resistance routine as P01",
+          "includes_programme": "P01",
+          "exercises": []
+        }
+      ],
+      "cardio": "10–20 min moderate cardio after two sessions or separate walks; add weekly walking gradually; do not make cardio punitive.",
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P03",
+      "title": "Intermediate upper/lower, 4 days",
+      "goal_text": "Goal: hypertrophy and strength base; Mon/Tue/Thu/Fri.",
+      "schedule_text": "Upper A: bench 3×6–10; row 3×8–12; incline press 2×8–12; pulldown 2×8–12; lateral raise 2×12–20; arms 2×10–15. Lower A: squat/leg press 3×6–10; RDL 3×6–10; leg curl 2×10–15; calf 3×10–15. Upper B and Lower B use complementary variations and similar volumes.",
+      "progression_guardrail_text": "Progression / guardrail: Most work 1–3 RIR. Use double progression; reduce sets if recovery or performance worsens.",
+      "goals": [
+        "hypertrophy",
+        "strength"
+      ],
+      "levels": [
+        "intermediate"
+      ],
+      "level_basis": "stated in title",
+      "audience": [],
+      "equipment_profile": "commercial_gym",
+      "equipment_basis": "derived: bench, squat/leg press, leg curl",
+      "days_per_week": 4,
+      "day_names": [
+        "Mon",
+        "Tue",
+        "Thu",
+        "Fri"
+      ],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": "Most work 1–3 RIR",
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Upper A",
+          "exercises": [
+            {
+              "label": "bench",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "6–10",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-001"
+              ]
+            },
+            {
+              "label": "row",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "incline press",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-S036"
+              ]
+            },
+            {
+              "label": "pulldown",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": false,
+              "pattern_id": "vertical_pull",
+              "note": null,
+              "exercise_ids": [
+                "EX-004"
+              ]
+            },
+            {
+              "label": "lateral raise",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "12–20",
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-007"
+              ]
+            },
+            {
+              "label": "arms",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "10–15",
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        },
+        {
+          "name": "Lower A",
+          "exercises": [
+            {
+              "label": "squat/leg press",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "6–10",
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-011",
+                "EX-012"
+              ]
+            },
+            {
+              "label": "RDL",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "6–10",
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-013"
+              ]
+            },
+            {
+              "label": "leg curl",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "10–15",
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-S037"
+              ]
+            },
+            {
+              "label": "calf",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "10–15",
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        },
+        {
+          "name": "Upper B",
+          "exercises": [],
+          "structure_note": "Complementary variations and similar volumes to Upper A (no exercise list given in source)."
+        },
+        {
+          "name": "Lower B",
+          "exercises": [],
+          "structure_note": "Complementary variations and similar volumes to Lower A (no exercise list given in source)."
+        }
+      ],
+      "cardio": null,
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P04",
+      "title": "PPL, 6-day experienced template",
+      "goal_text": "Goal: higher-frequency hypertrophy for a user who reliably trains six days; P/P/L/rest/P/P/L or 6-on/1-off only if recoverable.",
+      "schedule_text": "Push: chest press, incline press, overhead press, lateral raise, triceps. Pull: pulldown/pull-up, row, rear delt, curl. Legs: squat/press, hinge, curl, extension, calf, trunk. Start with 2–3 work sets per movement and tune weekly volume by muscle.",
+      "progression_guardrail_text": "Progression / guardrail: Not a default for beginners. A missed session should not cause the user to cram excessive work into the next day.",
+      "goals": [
+        "hypertrophy"
+      ],
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "level_basis": "derived from 'experienced template'",
+      "audience": [],
+      "equipment_profile": "commercial_gym",
+      "equipment_basis": "derived: pulldown, squat/press, curl, extension",
+      "days_per_week": 6,
+      "day_names": [
+        "P/P/L/rest/P/P/L or 6-on/1-off only if recoverable"
+      ],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": [
+        2,
+        3
+      ],
+      "sessions": [
+        {
+          "name": "Push",
+          "exercises": [
+            {
+              "label": "chest press",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "incline press",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-S036"
+              ]
+            },
+            {
+              "label": "overhead press",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "vertical_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-006"
+              ]
+            },
+            {
+              "label": "lateral raise",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-007"
+              ]
+            },
+            {
+              "label": "triceps",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        },
+        {
+          "name": "Pull",
+          "exercises": [
+            {
+              "label": "pulldown/pull-up",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "vertical_pull",
+              "note": null,
+              "exercise_ids": [
+                "EX-004",
+                "EX-S038"
+              ]
+            },
+            {
+              "label": "row",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "rear delt",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "curl",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        },
+        {
+          "name": "Legs",
+          "exercises": [
+            {
+              "label": "squat/press",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-011",
+                "EX-012"
+              ]
+            },
+            {
+              "label": "hinge",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "curl",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-S037"
+              ]
+            },
+            {
+              "label": "extension",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-S039"
+              ]
+            },
+            {
+              "label": "calf",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "trunk",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "trunk_anti_movement",
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        }
+      ],
+      "cardio": null,
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [
+        "beginner"
+      ],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P05",
+      "title": "Strength development, 3 days",
+      "goal_text": "Goal: general strength, not meet peaking; Mon/Wed/Fri.",
+      "schedule_text": "Day A: squat 3×4–6, bench 3×4–6, row 3×6–10. Day B: deadlift 2–3×3–5, overhead press 3×5–8, pulldown 3×8–10. Day C: squat variation 3×5–8, bench variation 3×5–8, hinge/accessory 2×6–10, carry 2–3 rounds.",
+      "progression_guardrail_text": "Progression / guardrail: Use RPE 6–8 for most work; add load conservatively; no weekly maxing.",
+      "goals": [
+        "strength"
+      ],
+      "levels": [],
+      "level_basis": "not stated in source",
+      "audience": [],
+      "equipment_profile": "commercial_gym",
+      "equipment_basis": "derived: barbell main lifts",
+      "days_per_week": 3,
+      "day_names": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": "RPE 6–8 for most work (coaching application; source S01 separately cites heavier loads for strength)",
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Day A",
+          "exercises": [
+            {
+              "label": "squat",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "4–6",
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-011"
+              ]
+            },
+            {
+              "label": "bench",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "4–6",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-001"
+              ]
+            },
+            {
+              "label": "row",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "6–10",
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        },
+        {
+          "name": "Day B",
+          "exercises": [
+            {
+              "label": "deadlift",
+              "sets_min": 2,
+              "sets_max": 3,
+              "reps": "3–5",
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-014"
+              ]
+            },
+            {
+              "label": "overhead press",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "5–8",
+              "per_side": false,
+              "pattern_id": "vertical_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-006"
+              ]
+            },
+            {
+              "label": "pulldown",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–10",
+              "per_side": false,
+              "pattern_id": "vertical_pull",
+              "note": null,
+              "exercise_ids": [
+                "EX-004"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Day C",
+          "exercises": [
+            {
+              "label": "squat variation",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "5–8",
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "bench variation",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "5–8",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "hinge/accessory",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "6–10",
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "carry",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "carry_locomotion",
+              "note": "2–3 rounds",
+              "exercise_ids": [
+                "EX-021"
+              ]
+            }
+          ]
+        }
+      ],
+      "cardio": null,
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P06",
+      "title": "Powerlifting foundation, 4 days",
+      "goal_text": "Goal: prepare for a first meet under qualified coaching; only after movement screening and competition familiarisation.",
+      "schedule_text": "Two squat exposures, two bench exposures, one or two deadlift exposures; main lifts use technique-focused top work plus back-off sets; accessories target muscle and positional needs. Competition commands, depth, pause and lockout standards are practised.",
+      "progression_guardrail_text": "Progression / guardrail: Individualise around federation rules, training history, meet date and recovery. Peaking and tapering require coach oversight; no fixed percentages are universal.",
+      "goals": [
+        "powerlifting"
+      ],
+      "levels": [],
+      "level_basis": "not stated in source",
+      "audience": [],
+      "equipment_profile": "barbell_gym",
+      "equipment_basis": "derived: squat, bench, deadlift",
+      "days_per_week": 4,
+      "day_names": [],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Weekly main-lift exposures",
+          "exercises": [
+            {
+              "label": "squat",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": "two exposures per week",
+              "exercise_ids": [
+                "EX-011"
+              ]
+            },
+            {
+              "label": "bench",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": "two exposures per week",
+              "exercise_ids": [
+                "EX-001"
+              ]
+            },
+            {
+              "label": "deadlift",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": "one or two exposures per week",
+              "exercise_ids": [
+                "EX-014"
+              ]
+            }
+          ],
+          "structure_note": "Main lifts use technique-focused top work plus back-off sets; accessories target muscle and positional needs. No set/rep numbers given in source."
+        }
+      ],
+      "cardio": null,
+      "requires_qualified_coach": true,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      },
+      "requires_qualified_coach_basis": "source: 'only after movement screening and competition familiarisation' and 'under qualified coaching'"
+    },
+    {
+      "id": "P07",
+      "title": "Football support, 3 gym exposures + sport",
+      "goal_text": "Goal: general strength and robustness alongside team practice.",
+      "schedule_text": "Two full-body strength sessions (squat/hinge, push/pull, calf, trunk) plus one short speed/change-of-direction exposure when fresh and coach-approved. Match and team training schedule take priority.",
+      "progression_guardrail_text": "Progression / guardrail: Coordinate total sprint, jump, match and gym load. Reduce gym volume during congested fixtures.",
+      "goals": [
+        "sport_support_football"
+      ],
+      "levels": [],
+      "level_basis": "not stated in source",
+      "audience": [],
+      "equipment_profile": "not_stated",
+      "equipment_basis": "not stated",
+      "days_per_week": 3,
+      "day_names": [],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Two full-body strength sessions",
+          "exercises": [
+            {
+              "label": "squat/hinge",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "push/pull",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "calf",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "trunk",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "trunk_anti_movement",
+              "note": null,
+              "exercise_ids": []
+            }
+          ]
+        },
+        {
+          "name": "Short speed / change-of-direction exposure",
+          "exercises": [],
+          "structure_note": "Only when fresh and coach-approved. Match and team training schedule take priority."
+        }
+      ],
+      "cardio": null,
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": "football",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P08",
+      "title": "Running support, 2 strength days + runs",
+      "goal_text": "Goal: support running while preserving run quality.",
+      "schedule_text": "Two short full-body strength sessions: split squat or step-up, RDL, calf raise, row, press, trunk. Keep demanding lower-body lifting away from key interval/long-run days when possible.",
+      "progression_guardrail_text": "Progression / guardrail: Run progression is primary; avoid sudden mileage and interval increases.",
+      "goals": [
+        "running_support"
+      ],
+      "levels": [],
+      "level_basis": "not stated in source",
+      "audience": [],
+      "equipment_profile": "not_stated",
+      "equipment_basis": "not stated",
+      "days_per_week": 2,
+      "day_names": [],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Two short full-body strength sessions",
+          "exercises": [
+            {
+              "label": "split squat or step-up",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "single_leg_split_stance",
+              "note": null,
+              "exercise_ids": [
+                "EX-017",
+                "EX-S023"
+              ]
+            },
+            {
+              "label": "RDL",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-013"
+              ]
+            },
+            {
+              "label": "calf raise",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "row",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "press",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "trunk",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "trunk_anti_movement",
+              "note": null,
+              "exercise_ids": []
+            }
+          ],
+          "structure_note": "Keep demanding lower-body lifting away from key interval/long-run days when possible."
+        }
+      ],
+      "cardio": "Runs are the primary training; strength days support them.",
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": "running",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P09",
+      "title": "Home dumbbell, 3 days",
+      "goal_text": "Goal: full-body training with adjustable dumbbells.",
+      "schedule_text": "Goblet squat 3×8–15; DB floor press 3×8–15; one-arm row 3×8–15; DB RDL 3×8–15; split squat 2×8–12/side; lateral raise 2×12–20; plank 2 sets.",
+      "progression_guardrail_text": "Progression / guardrail: Use unilateral work, reps, range and tempo to progress when load is limited.",
+      "goals": [
+        "general_fitness"
+      ],
+      "levels": [],
+      "level_basis": "not stated in source",
+      "audience": [],
+      "equipment_profile": "dumbbells",
+      "equipment_basis": "stated: adjustable dumbbells",
+      "days_per_week": 3,
+      "day_names": [],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Full body",
+          "exercises": [
+            {
+              "label": "goblet squat",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–15",
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-010"
+              ]
+            },
+            {
+              "label": "DB floor press",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–15",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-S040"
+              ]
+            },
+            {
+              "label": "one-arm row",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–15",
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": [
+                "EX-S041"
+              ]
+            },
+            {
+              "label": "DB RDL",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–15",
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-S035"
+              ]
+            },
+            {
+              "label": "split squat",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8–12",
+              "per_side": true,
+              "pattern_id": "single_leg_split_stance",
+              "note": null,
+              "exercise_ids": [
+                "EX-017"
+              ]
+            },
+            {
+              "label": "lateral raise",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "12–20",
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-007"
+              ]
+            },
+            {
+              "label": "plank",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "trunk_anti_movement",
+              "note": "hold duration not specified in source",
+              "exercise_ids": [
+                "EX-024"
+              ]
+            }
+          ]
+        }
+      ],
+      "cardio": null,
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P10",
+      "title": "Bodyweight, 3 days",
+      "goal_text": "Goal: beginner general fitness with no equipment.",
+      "schedule_text": "Chair squat 3×8–15; incline push-up 3×6–12; glute bridge 3×10–15; supported reverse lunge 2×6–10/side; prone Y/T or bandless row substitute only if equipment exists; dead bug 2×8/side; brisk walking.",
+      "progression_guardrail_text": "Progression / guardrail: Pulling options are limited without equipment; recommend a safe band/door anchor or suitable row equipment rather than pretending bodyweight-only covers every pattern.",
+      "goals": [
+        "general_fitness"
+      ],
+      "levels": [
+        "beginner"
+      ],
+      "level_basis": "stated: 'beginner general fitness'",
+      "audience": [],
+      "equipment_profile": "bodyweight",
+      "equipment_basis": "stated: no equipment",
+      "days_per_week": 3,
+      "day_names": [],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": null,
+      "sessions": [
+        {
+          "name": "Full body",
+          "exercises": [
+            {
+              "label": "chair squat",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "8–15",
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-S042"
+              ]
+            },
+            {
+              "label": "incline push-up",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "6–12",
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-S003"
+              ]
+            },
+            {
+              "label": "glute bridge",
+              "sets_min": 3,
+              "sets_max": 3,
+              "reps": "10–15",
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-S020"
+              ]
+            },
+            {
+              "label": "supported reverse lunge",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "6–10",
+              "per_side": true,
+              "pattern_id": "single_leg_split_stance",
+              "note": null,
+              "exercise_ids": [
+                "EX-S043"
+              ]
+            },
+            {
+              "label": "prone Y/T or bandless row substitute",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": "source: only if equipment exists; pulling options are limited without equipment",
+              "exercise_ids": []
+            },
+            {
+              "label": "dead bug",
+              "sets_min": 2,
+              "sets_max": 2,
+              "reps": "8",
+              "per_side": true,
+              "pattern_id": "trunk_anti_movement",
+              "note": null,
+              "exercise_ids": [
+                "EX-020"
+              ]
+            }
+          ]
+        }
+      ],
+      "cardio": "Brisk walking.",
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": false,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    },
+    {
+      "id": "P11",
+      "title": "Older-adult general fitness, 2–3 days",
+      "goal_text": "Goal: strength, balance, mobility and daily function; individualised.",
+      "schedule_text": "Sit-to-stand or leg press, supported row, wall/incline push-up, hip hinge, calf raise, balance practice near support, walking. Start with 1–2 sets and progress based on capacity.",
+      "progression_guardrail_text": "Progression / guardrail: Screen falls, symptoms, medications and comorbidities; clinician review when indicated. Follow NSCA older-adult guidance. [S07]",
+      "goals": [
+        "strength",
+        "balance",
+        "mobility",
+        "daily_function"
+      ],
+      "levels": [],
+      "level_basis": "population programme",
+      "audience": [
+        "older_adults"
+      ],
+      "equipment_profile": "not_stated",
+      "equipment_basis": "not stated",
+      "days_per_week": [
+        2,
+        3
+      ],
+      "day_names": [],
+      "session_minutes": null,
+      "programme_weeks": null,
+      "target_rir": null,
+      "rest": null,
+      "effort_note": null,
+      "default_sets_per_movement": [
+        1,
+        2
+      ],
+      "sessions": [
+        {
+          "name": "Individualised general fitness",
+          "exercises": [
+            {
+              "label": "sit-to-stand or leg press",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "squat_knee_dominant",
+              "note": null,
+              "exercise_ids": [
+                "EX-S044",
+                "EX-012"
+              ]
+            },
+            {
+              "label": "supported row",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_pull",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "wall/incline push-up",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "horizontal_push",
+              "note": null,
+              "exercise_ids": [
+                "EX-S045",
+                "EX-S003"
+              ]
+            },
+            {
+              "label": "hip hinge",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": "hinge_hip_dominant",
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "calf raise",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": []
+            },
+            {
+              "label": "balance practice near support",
+              "sets_min": null,
+              "sets_max": null,
+              "reps": null,
+              "per_side": false,
+              "pattern_id": null,
+              "note": null,
+              "exercise_ids": [
+                "EX-S046"
+              ]
+            }
+          ]
+        }
+      ],
+      "cardio": "Walking.",
+      "requires_qualified_coach": false,
+      "requires_clinician_review_when_indicated": true,
+      "not_default_for": [],
+      "sport": null,
+      "source_ids": [
+        "S07"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "file": "cardio.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "who_guidance": {
+    "text": "WHO adult public-health guidance recommends 150–300 minutes of moderate-intensity aerobic activity or 75–150 minutes of vigorous activity (or an equivalent combination) per week, plus muscle-strengthening activity involving major muscle groups on at least two days. These are population health targets, not an athlete's complete conditioning prescription. [S02] [S10]",
+    "source_ids": [
+      "S02",
+      "S10"
+    ]
+  },
+  "concurrent_training": {
+    "text": "Concurrent training: cardio and resistance training can coexist. Schedule high-intensity endurance and demanding lower-body lifting with enough separation or sequencing to preserve quality when performance is important. The magnitude of interference depends on modality, dose, training status, scheduling and outcome; avoid absolute claims that cardio 'kills gains'.",
+    "source_ids": []
+  },
+  "records": [
+    {
+      "method": "Steady-state moderate",
+      "description": "Sustained conversational but purposeful effort",
+      "use": "Accessible aerobic base, health, recovery-friendly conditioning",
+      "id": "steady_state_moderate",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "7"
+      }
+    },
+    {
+      "method": "Zone 2",
+      "description": "Popular coaching label for lower-intensity aerobic work; exact boundaries depend on model and individual testing",
+      "use": "Can support aerobic development; avoid treating generic watch zones as precise physiology",
+      "id": "zone_2",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "7"
+      }
+    },
+    {
+      "method": "HIIT",
+      "description": "Repeated hard intervals with recovery",
+      "use": "Time-efficient high-intensity stimulus; high fatigue cost",
+      "id": "hiit",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "7"
+      }
+    },
+    {
+      "method": "Sprint interval training",
+      "description": "Very short, very hard efforts with substantial recovery",
+      "use": "Specific high-intensity capacity; not suitable as default for all beginners",
+      "id": "sprint_interval_training",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "7"
+      }
+    },
+    {
+      "method": "Sport-specific intervals",
+      "description": "Work-rest pattern reflects sport demands",
+      "use": "Use for athletes after identifying actual sport demands",
+      "id": "sport_specific_intervals",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "7"
+      }
+    }
+  ]
+}

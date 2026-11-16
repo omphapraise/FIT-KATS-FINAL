@@ -1,0 +1,117 @@
+{
+  "file": "strength_powerlifting.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "element": "Specificity",
+      "general_strength": "Train relevant movement patterns and strength qualities",
+      "powerlifting_preparation": "Practise competition squat, bench and deadlift with rule-compliant technique",
+      "id": "specificity",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "element": "Loading",
+      "general_strength": "Mix moderate and heavy work to suit goal",
+      "powerlifting_preparation": "Planned exposure to heavier competition-specific loads",
+      "id": "loading",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "element": "Accessories",
+      "general_strength": "Support general strength, muscle and function",
+      "powerlifting_preparation": "Address weak links without compromising main-lift recovery",
+      "id": "accessories",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "element": "Testing",
+      "general_strength": "Occasional submaximal benchmarks often sufficient",
+      "powerlifting_preparation": "Planned test/meet performance; avoid frequent max attempts",
+      "id": "testing",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "element": "Peaking",
+      "general_strength": "Usually unnecessary",
+      "powerlifting_preparation": "Taper volume and manage intensity before meet; individual response varies",
+      "id": "peaking",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "id": "pl_01",
+      "text": "Squat: establish repeatable stance, bracing, depth appropriate to competition standard, balance over mid-foot and controlled descent. Coach individual anthropometry rather than forcing one stance.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "id": "pl_02",
+      "text": "Bench: consistent setup, stable upper back and foot position, controlled touch point, full range and competition pause where required.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "id": "pl_03",
+      "text": "Deadlift: choose conventional or sumo according to build, comfort and performance; brace, keep load close, establish repeatable start position and avoid jerking the bar.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "id": "pl_04",
+      "text": "Use training maxes conservatively (often below a true recent 1RM) when programming percentages; adjust using RPE/RIR and performance.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "id": "pl_05",
+      "text": "Peaking is for a defined competition date. A recreational lifter should not be placed into a meet taper by default.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    },
+    {
+      "id": "pl_06",
+      "text": "Attempt selection: opener should be a highly reliable lift; second attempt should secure a meaningful total; third attempt should reflect day-of readiness and risk tolerance. Exact percentages are individual and coach-dependent.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "5"
+      }
+    }
+  ]
+}

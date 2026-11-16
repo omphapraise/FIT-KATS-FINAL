@@ -1,0 +1,115 @@
+{
+  "file": "intent_categories.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "definition",
+      "description": "Asks what a term or concept means",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "cardio_definition",
+        "definition",
+        "training_concept",
+        "training_intensity",
+        "training_terminology"
+      ],
+      "faq_count": 8
+    },
+    {
+      "id": "how_to",
+      "description": "Asks how to do or start something",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "exercise_howto",
+        "exercise_selection",
+        "getting_started",
+        "health_guideline",
+        "recovery"
+      ],
+      "faq_count": 7
+    },
+    {
+      "id": "troubleshooting",
+      "description": "Something is not working (e.g. 'My bench stopped moving')",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "troubleshooting"
+      ],
+      "faq_count": 1
+    },
+    {
+      "id": "comparison",
+      "description": "Asks the difference between two things",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "comparison"
+      ],
+      "faq_count": 2
+    },
+    {
+      "id": "plan",
+      "description": "Asks for programming or a plan",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "hypertrophy_programming",
+        "programme_adaptation",
+        "programme_choice",
+        "programme_generation",
+        "programming"
+      ],
+      "faq_count": 9
+    },
+    {
+      "id": "nutrition",
+      "description": "Nutrition or supplements",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "nutrition",
+        "nutrition_safety",
+        "supplement"
+      ],
+      "faq_count": 4
+    },
+    {
+      "id": "pain_safety",
+      "description": "Pain, symptoms, safety",
+      "origin": "doc2_section_1",
+      "legacy_labels": [
+        "recovery_safety",
+        "safety"
+      ],
+      "faq_count": 3
+    },
+    {
+      "id": "motivation",
+      "description": "Motivation",
+      "origin": "doc2_section_1",
+      "legacy_labels": [],
+      "faq_count": 0
+    },
+    {
+      "id": "myth_correction",
+      "description": "Engineering-added: FAQs whose purpose is correcting a misconception (Doc 2 section 5 style)",
+      "origin": "engineering_added",
+      "legacy_labels": [
+        "fat_loss_myth",
+        "myth_correction",
+        "nutrition_myth",
+        "recovery_myth"
+      ],
+      "faq_count": 4
+    },
+    {
+      "id": "special_population",
+      "description": "Engineering-added: older adults, pregnancy and similar population questions",
+      "origin": "engineering_added",
+      "legacy_labels": [
+        "special_population",
+        "special_population_safety"
+      ],
+      "faq_count": 2
+    }
+  ]
+}

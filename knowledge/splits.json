@@ -1,0 +1,70 @@
+{
+  "file": "splits.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "frequency_volume_note": {
+    "text": "Weekly frequency is primarily a way to distribute useful work and practise a skill. If weekly volume is equated, frequency alone may have a smaller effect on hypertrophy than popular gym advice suggests; strength practice may benefit from more frequent exposure to the target lift. Newer meta-regression suggests volume has a positive but diminishing-return relationship with both hypertrophy and strength, while frequency appears more consistently related to strength than hypertrophy. [S11] [S03]",
+    "source_ids": [
+      "S11",
+      "S03"
+    ]
+  },
+  "records": [
+    {
+      "split": "Full body 2–3 days",
+      "good_fit": "Beginners, busy schedules, limited weekly sessions",
+      "trade_off": "Sessions may be longer; per-session volume needs control",
+      "id": "full_body_2_3_days",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.4"
+      }
+    },
+    {
+      "split": "Upper / lower 4 days",
+      "good_fit": "Intermediate users with 4 available days",
+      "trade_off": "Needs consistent weekly attendance",
+      "id": "upper_lower_4_days",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.4"
+      }
+    },
+    {
+      "split": "Push / pull / legs 3–6 days",
+      "good_fit": "Users who enjoy a higher-frequency gym routine",
+      "trade_off": "A 3-day version trains each pattern less often; missed sessions can disrupt coverage",
+      "id": "push_pull_legs_3_6_days",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.4"
+      }
+    },
+    {
+      "split": "Body-part split",
+      "good_fit": "Experienced bodybuilders with sufficient days and volume distribution",
+      "trade_off": "Can concentrate too much work into one session if poorly designed",
+      "id": "body_part_split",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.4"
+      }
+    },
+    {
+      "split": "Sport / performance split",
+      "good_fit": "Athletes with practice and competition demands",
+      "trade_off": "Must coordinate with sport workload and season",
+      "id": "sport_performance_split",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.4"
+      }
+    }
+  ]
+}

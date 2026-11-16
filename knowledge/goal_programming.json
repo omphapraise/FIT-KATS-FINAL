@@ -1,0 +1,76 @@
+{
+  "file": "goal_programming.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "acsm_2026_synthesis": {
+    "text": "2026 ACSM synthesis: progressive resistance training improves strength, muscle size, power, endurance and several physical-function outcomes. Its summary reports strength benefits from heavier loads (≥80% 1RM), full range of motion, 2–3 sets, placing priority exercises early and training at least twice weekly; hypertrophy benefits from higher weekly volume (≥10 sets/week in the evidence synthesis) and eccentric overload. These are evidence signals, not universal minimums or mandates. The review also found that training to momentary failure, equipment type, exercise complexity, set structure, time under tension and periodisation did not consistently change outcomes across the reviewed evidence. [S01]",
+    "source_ids": [
+      "S01"
+    ],
+    "evidence_label": "professional_consensus",
+    "evidence_label_basis": "source calls S01 an ACSM position stand; engineering-derived label"
+  },
+  "records": [
+    {
+      "goal": "Hypertrophy",
+      "primary_emphasis": "Sufficient challenging sets, target-muscle stimulus, progressive overload",
+      "starting_approach": "Often moderate rep ranges; a range of loads can work when sets are sufficiently challenging; distribute weekly work across sessions as useful",
+      "key_caution": "More volume is not endlessly better; diminishing returns and recovery costs matter",
+      "id": "hypertrophy",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.1"
+      }
+    },
+    {
+      "goal": "Maximal strength",
+      "primary_emphasis": "High-force practice, skill in target lifts, progressive heavy loading",
+      "starting_approach": "Prioritise main lifts early; use heavier loads for specific strength practice; build volume with back-off and accessory work",
+      "key_caution": "Heavy loading needs technique, sensible progression and fatigue management",
+      "id": "maximal_strength",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.1"
+      }
+    },
+    {
+      "goal": "Muscular endurance",
+      "primary_emphasis": "Repeated submaximal contractions and local fatigue tolerance",
+      "starting_approach": "Higher-repetition sets, circuits or task-specific intervals",
+      "key_caution": "Do not assume endurance programming maximises strength or hypertrophy",
+      "id": "muscular_endurance",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.1"
+      }
+    },
+    {
+      "goal": "Power",
+      "primary_emphasis": "Force produced quickly; intent and movement velocity",
+      "starting_approach": "Moderate loads, explosive concentric intent, low-to-moderate fatigue",
+      "key_caution": "Stop sets when speed/technique deteriorates; advanced lifts need coaching",
+      "id": "power",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.1"
+      }
+    },
+    {
+      "goal": "General health",
+      "primary_emphasis": "Adherence, whole-body strength, aerobic activity, balance/function as appropriate",
+      "starting_approach": "Simple full-body routine plus regular moderate/vigorous activity",
+      "key_caution": "Consistency and accessibility beat an unnecessarily complex plan",
+      "id": "general_health",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.1"
+      }
+    }
+  ]
+}

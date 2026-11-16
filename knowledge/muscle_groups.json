@@ -1,0 +1,146 @@
+{
+  "file": "muscle_groups.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "pectoralis_major",
+      "name": "Pectoralis major",
+      "actions": "Shoulder horizontal adduction; assists shoulder flexion depending on region and position",
+      "example_patterns_exercises": [
+        "Bench press",
+        "push-up",
+        "cable fly"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "latissimus_dorsi",
+      "name": "Latissimus dorsi",
+      "actions": "Shoulder extension, adduction and internal rotation",
+      "example_patterns_exercises": [
+        "Pulldown",
+        "pull-up",
+        "row variations"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "deltoids",
+      "name": "Deltoids",
+      "actions": "Anterior: shoulder flexion; middle: abduction; posterior: horizontal abduction/extension",
+      "example_patterns_exercises": [
+        "Overhead press",
+        "lateral raise",
+        "reverse fly"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "triceps_brachii",
+      "name": "Triceps brachii",
+      "actions": "Elbow extension; long head also crosses shoulder",
+      "example_patterns_exercises": [
+        "Presses",
+        "pushdowns",
+        "overhead extensions"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "biceps_brachialis",
+      "name": "Biceps / brachialis",
+      "actions": "Elbow flexion; biceps also supination and shoulder contribution",
+      "example_patterns_exercises": [
+        "Curl variations",
+        "chin-up"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "quadriceps",
+      "name": "Quadriceps",
+      "actions": "Knee extension; rectus femoris also hip flexion",
+      "example_patterns_exercises": [
+        "Squat",
+        "leg press",
+        "knee extension"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "hamstrings",
+      "name": "Hamstrings",
+      "actions": "Hip extension and knee flexion (biarticular roles vary)",
+      "example_patterns_exercises": [
+        "RDL",
+        "leg curl",
+        "hip hinge"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "gluteus_maximus",
+      "name": "Gluteus maximus",
+      "actions": "Hip extension and external rotation; contributes to hip control",
+      "example_patterns_exercises": [
+        "Hip thrust",
+        "squat",
+        "hinge"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "calf_complex",
+      "name": "Calf complex",
+      "actions": "Plantarflexion; soleus and gastrocnemius differ by knee position",
+      "example_patterns_exercises": [
+        "Standing and seated calf raise"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    },
+    {
+      "id": "trunk_musculature",
+      "name": "Trunk musculature",
+      "actions": "Resists or produces flexion, extension, rotation and lateral flexion; stabilises trunk",
+      "example_patterns_exercises": [
+        "Carries",
+        "anti-rotation press",
+        "curl-up",
+        "back extension"
+      ],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "1.1"
+      }
+    }
+  ]
+}

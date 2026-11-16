@@ -1,0 +1,92 @@
+{
+  "file": "hypertrophy_guidance.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "intro": {
+    "text": "The generator should distribute weekly work by muscle group, exercise tolerance, available sessions and recovery. A commonly used starting point for an adult without special constraints is roughly 6–10 challenging weekly sets per target muscle for a novice-to-intermediate plan, then adjust according to response; the 2026 ACSM overview identifies ≥10 weekly sets as a volume associated with greater hypertrophy in its synthesis. These figures should not be treated as a hard threshold, and indirect work from compound lifts complicates counting. [S01] [S11]",
+    "source_ids": [
+      "S01",
+      "S11"
+    ]
+  },
+  "records": [
+    {
+      "muscle_pattern": "Chest",
+      "exercise_options": "Bench press, incline press, machine press, push-up, cable fly",
+      "programming_notes": "Use pressing plus optional isolation; vary angle only when it improves comfort or stimulus",
+      "id": "chest",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    },
+    {
+      "muscle_pattern": "Back / lats",
+      "exercise_options": "Pulldown, pull-up, chest-supported row, cable row, straight-arm pulldown",
+      "programming_notes": "Include vertical and horizontal pulling; support torso if low-back fatigue is limiting",
+      "id": "back_lats",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    },
+    {
+      "muscle_pattern": "Shoulders",
+      "exercise_options": "Overhead press, lateral raise, reverse fly, cable raise",
+      "programming_notes": "Deltoid heads have different functions; pressing alone may not fully cover lateral/rear delts",
+      "id": "shoulders",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    },
+    {
+      "muscle_pattern": "Arms",
+      "exercise_options": "Curl variations, hammer curl, pushdown, overhead triceps extension",
+      "programming_notes": "Compound pulling/pressing contributes; add direct work according to goal and elbow tolerance",
+      "id": "arms",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    },
+    {
+      "muscle_pattern": "Quads",
+      "exercise_options": "Squat, leg press, split squat, step-up, knee extension",
+      "programming_notes": "Select stable, tolerable knee-dominant patterns",
+      "id": "quads",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    },
+    {
+      "muscle_pattern": "Hamstrings / glutes",
+      "exercise_options": "RDL, leg curl, hip thrust, back extension, hinge variations",
+      "programming_notes": "Combine hip-extension and knee-flexion functions where appropriate",
+      "id": "hamstrings_glutes",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    },
+    {
+      "muscle_pattern": "Calves / trunk",
+      "exercise_options": "Standing/seated calf raise, carries, Pallof press, dead bug, side plank",
+      "programming_notes": "Train according to user goal and functional needs; no need for endless ab circuits",
+      "id": "calves_trunk",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "4"
+      }
+    }
+  ]
+}

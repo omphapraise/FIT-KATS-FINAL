@@ -1,0 +1,26 @@
+{
+  "file": "failure_fatigue.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "failure_deloads",
+      "text": "Training to momentary muscular failure is not a universal requirement. Most users can accumulate productive work while stopping short of failure, especially on technically demanding compound lifts. Failure may be used selectively on safer isolation exercises. Deloads are a coaching tool, not a biologically mandatory calendar event: consider them when fatigue, performance, motivation, soreness or life stress indicate that a temporary reduction in workload may help. Evidence does not support one universal deload protocol.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.5"
+      }
+    },
+    {
+      "id": "plateau_checklist",
+      "text": "Plateau checklist: verify attendance and logging; review technique and range; check load jumps; assess sleep, nutrition and stress; confirm goal realism; consider whether the plan is too easy, too hard or too variable. Change one meaningful factor and monitor for several weeks rather than changing everything at once.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "file": "safety_responses.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "local_emergency_resources": {
+    "country": "South Africa",
+    "applies_to": "emergency severity only (SAFE-01). Never shown for needs_assessment or ordinary discomfort.",
+    "mobile_emergency_number": "112",
+    "ambulance_number": "10177",
+    "message": "If you are experiencing a medical emergency, stop exercising immediately and seek urgent medical assistance. Call 112 from a mobile phone or 10177 for an ambulance in South Africa. Do not continue exercising while waiting for assistance.",
+    "basis": "Wording approved by the owner on 2026-11-11. Numbers web-checked on 2026-11-11 against Western Cape Government and City of Cape Town emergency-number pages, which list 112 for cellphones and 10177 for ambulances.",
+    "sources_checked": [
+      "westerncape.gov.za: Know who you can call in an emergency",
+      "capetown.gov.za: About Public Emergency Communication"
+    ],
+    "verification_status": "Web-checked only. Not signed off by an official reviewer. Re-verify against official South African government or emergency-service sources before any real release. A 2019 news report said 112 would replace 10177 for medical emergencies; current government pages still list both.",
+    "provenance": {
+      "document": "owner decision",
+      "section": "2026-11-11"
+    }
+  },
+  "local_emergency_resources_note": "South African emergency wording and numbers (112, 10177) were added on 2026-11-11 from the owner's approved wording and a web check. They are shown only for the emergency tier. Needs official verification before release. No clinical contacts or mental-health lines are included.",
+  "records": [
+    {
+      "trigger": "Chest pain/pressure, fainting, severe breathlessness, stroke-like symptoms",
+      "chatbot_action": "Tell user to stop activity and seek emergency medical help immediately; no workout advice.",
+      "example_language": "'Stop exercising now and seek emergency medical help. I can't safely troubleshoot this in chat.'",
+      "id": "SAFE-01",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "Sharp, worsening or unusual pain",
+      "chatbot_action": "Stop the provoking exercise; ask minimal context; recommend clinician/physio for persistent or significant pain.",
+      "example_language": "'Don't push through that. Stop the movement and get it assessed if it persists or is severe.'",
+      "id": "SAFE-02",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "Eating-disorder cues / extreme restriction / purging",
+      "chatbot_action": "No calorie-cutting plan or weight-loss coaching; respond compassionately and encourage qualified support.",
+      "example_language": "'I'm glad you said something. I won't give you a restrictive plan; you deserve support from a qualified professional.'",
+      "id": "SAFE-03",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "Minor requesting aggressive weight loss or supplements",
+      "chatbot_action": "Avoid restrictive diet and supplement advice; encourage guardian and qualified clinician involvement.",
+      "example_language": "'Because you're still growing, weight and nutrition advice should come from a qualified health professional who can assess your needs.'",
+      "id": "SAFE-04",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "Pregnancy / postpartum complications",
+      "chatbot_action": "Recommend obstetric provider assessment; no generic training clearance.",
+      "example_language": "'Please check with your obstetric provider before changing training, especially with those symptoms.'",
+      "id": "SAFE-05",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "Known medical condition / medication",
+      "chatbot_action": "General education only; no diagnosis, medication changes or clinical prescription.",
+      "example_language": "'Your clinician can confirm what intensity and movements are appropriate with your condition.'",
+      "id": "SAFE-06",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "User asks for diagnosis",
+      "chatbot_action": "Explain limitation; direct to appropriate professional.",
+      "example_language": "'I can't diagnose that from a chat, but I can help you describe symptoms to a clinician.'",
+      "id": "SAFE-07",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    },
+    {
+      "trigger": "Unverified supplement / steroid / performance drug",
+      "chatbot_action": "Do not endorse risky or illegal use; explain risks and recommend medical advice.",
+      "example_language": "'I can't help you use an unprescribed drug for performance. Let's focus on safer training options.'",
+      "id": "SAFE-08",
+      "humour_level": "H0",
+      "humour_level_basis": "design decision: every safety-gate response is delivered without humour (Doc 1 principle: personality must never alter a safety response)",
+      "detection_keywords": [],
+      "detection_keywords_note": "Source gives trigger descriptions only. Detection keyword lists are engineering-derived and are added in the retrieval layer, not invented here.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "7"
+      }
+    }
+  ]
+}

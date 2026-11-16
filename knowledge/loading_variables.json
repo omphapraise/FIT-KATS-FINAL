@@ -1,0 +1,74 @@
+{
+  "file": "loading_variables.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "variable": "Load / intensity",
+      "definition": "External resistance relative to capacity, often expressed as %1RM or effort",
+      "implementation": "Use heavier loads for specific maximal-strength practice; a wide range can support hypertrophy if effort and volume are appropriate",
+      "id": "load_intensity",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.2"
+      }
+    },
+    {
+      "variable": "Repetitions",
+      "definition": "Completed repetitions in a set",
+      "implementation": "Choose a range compatible with goal, exercise, skill and comfort; no magic rep number",
+      "id": "repetitions",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.2"
+      }
+    },
+    {
+      "variable": "RIR",
+      "definition": "Repetitions in reserve: estimated additional technically sound reps possible",
+      "implementation": "RIR 3 = stop with about three reps left; useful for autoregulation",
+      "id": "rir",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.2"
+      }
+    },
+    {
+      "variable": "RPE",
+      "definition": "Perceived exertion scale; in lifting commonly mapped to proximity to failure",
+      "implementation": "RPE 10 ~ maximal effort; RPE 8 ~ roughly 2 reps in reserve; individual estimates are imperfect",
+      "id": "rpe",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.2"
+      }
+    },
+    {
+      "variable": "1RM",
+      "definition": "Heaviest load lifted once with acceptable technique",
+      "implementation": "Direct testing is not required for most users; estimate cautiously from submaximal performance",
+      "id": "1rm",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.2"
+      }
+    },
+    {
+      "variable": "Rest",
+      "definition": "Time between work sets",
+      "implementation": "Longer rests generally help preserve performance in demanding compound work; shorter rests can be used where practical and performance remains adequate",
+      "id": "rest",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "2.2"
+      }
+    }
+  ]
+}

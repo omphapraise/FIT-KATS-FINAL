@@ -1,0 +1,85 @@
+{
+  "file": "sources.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "S01",
+      "citation": "Currier BS et al. (2026). American College of Sports Medicine Position Stand: Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews. Medicine & Science in Sports & Exercise, 58(4), 851–872. DOI: 10.1249/MSS.0000000000003897.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+      "doi": "10.1249/MSS.0000000000003897",
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S02",
+      "citation": "World Health Organization (2020). WHO Guidelines on Physical Activity and Sedentary Behaviour.",
+      "url": "https://www.who.int/publications/i/item/9789240015128",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S03",
+      "citation": "Schoenfeld BJ et al. (2023). Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis. British Journal of Sports Medicine.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10579494/",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S04",
+      "citation": "Jäger R et al. / International Society of Sports Nutrition (2017). ISSN Position Stand: protein and exercise. Journal of the International Society of Sports Nutrition, 14:20.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S05",
+      "citation": "Kreider RB et al. / International Society of Sports Nutrition (2017). ISSN Position Stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S06",
+      "citation": "American College of Obstetricians and Gynecologists (2020). Physical Activity and Exercise During Pregnancy and the Postpartum Period. Committee Opinion No. 804.",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S07",
+      "citation": "National Strength and Conditioning Association. Resistance Training for Older Adults: Position Statement.",
+      "url": "https://www.nsca.com/about-us/position-statements/resistance-training-for-older-adults/",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S08",
+      "citation": "Faigenbaum AD et al. (2009). Youth Resistance Training: Updated Position Statement Paper from the National Strength and Conditioning Association. Journal of Strength and Conditioning Research, 23(5 Suppl), S60–S79.",
+      "url": "https://www.nsca.com/globalassets/about/position-statements/position_stand_youth_resistance_training---2009.pdf",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S09",
+      "citation": "American College of Sports Medicine. Position Stands and Scientific Communications index.",
+      "url": "https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S10",
+      "citation": "World Health Organization (2020). Guidelines on physical activity and sedentary behaviour: at a glance.",
+      "url": "https://www.who.int/publications/i/item/9789240014886",
+      "doi": null,
+      "verified_by_engineering": false
+    },
+    {
+      "id": "S11",
+      "citation": "Pelland JC et al. (2025). The Resistance Training Dose Response: Meta-Regressions Exploring the Effects of Weekly Volume and Frequency on Muscle Hypertrophy and Strength Gains. PubMed record.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41343037/",
+      "doi": null,
+      "verified_by_engineering": false
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "file": "keyword_index.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "kw_bench",
+      "terms": [
+        "bench",
+        "BP",
+        "pressing"
+      ],
+      "canonical_concepts": [
+        "bench_press",
+        "horizontal_push",
+        "chest_strength"
+      ],
+      "ambiguity_action": "BP may mean blood pressure in health context; disambiguate.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_cut",
+      "terms": [
+        "cut",
+        "cutting"
+      ],
+      "canonical_concepts": [
+        "fat_loss_phase",
+        "energy_deficit"
+      ],
+      "ambiguity_action": "Could mean exercise range or video editing in unrelated context; use surrounding words.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_bulk",
+      "terms": [
+        "bulk",
+        "bulking"
+      ],
+      "canonical_concepts": [
+        "muscle_gain_phase",
+        "energy_surplus"
+      ],
+      "ambiguity_action": "Do not assume user wants aggressive weight gain.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_rpe",
+      "terms": [
+        "RPE",
+        "RIR"
+      ],
+      "canonical_concepts": [
+        "effort_rating",
+        "reps_in_reserve"
+      ],
+      "ambiguity_action": "Explain simply; ask whether user means lifting or cardio RPE.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_ppl",
+      "terms": [
+        "PPL"
+      ],
+      "canonical_concepts": [
+        "push_pull_legs_split"
+      ],
+      "ambiguity_action": "Ask how many days they can train before prescribing.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_doms",
+      "terms": [
+        "DOMS"
+      ],
+      "canonical_concepts": [
+        "delayed_onset_muscle_soreness"
+      ],
+      "ambiguity_action": "Differentiate normal delayed soreness from acute pain/injury.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_pr",
+      "terms": [
+        "PR",
+        "PB"
+      ],
+      "canonical_concepts": [
+        "personal_record",
+        "personal_best"
+      ],
+      "ambiguity_action": "Could refer to any lift or performance; ask which exercise.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_zone_2",
+      "terms": [
+        "zone 2",
+        "Z2"
+      ],
+      "canonical_concepts": [
+        "low_intensity_aerobic_training"
+      ],
+      "ambiguity_action": "Zone definitions vary by model; do not return a universal heart rate.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_creatine",
+      "terms": [
+        "creatine",
+        "creatine mono"
+      ],
+      "canonical_concepts": [
+        "creatine_monohydrate"
+      ],
+      "ambiguity_action": "Distinguish from creatinine lab marker if health context.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_protein",
+      "terms": [
+        "protein",
+        "whey"
+      ],
+      "canonical_concepts": [
+        "dietary_protein",
+        "supplement"
+      ],
+      "ambiguity_action": "Could be nutrition question or powder product; answer intent accordingly.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_recovery",
+      "terms": [
+        "recovery",
+        "rest"
+      ],
+      "canonical_concepts": [
+        "fatigue",
+        "sleep",
+        "workload",
+        "soreness"
+      ],
+      "ambiguity_action": "Ask what symptom or training issue they mean if unclear.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_squat",
+      "terms": [
+        "squat",
+        "deadlift"
+      ],
+      "canonical_concepts": [
+        "exercise_technique",
+        "strength_programming"
+      ],
+      "ambiguity_action": "If pain is mentioned, route through safety gate first.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_hypertrophy",
+      "terms": [
+        "hypertrophy"
+      ],
+      "canonical_concepts": [
+        "muscle_growth",
+        "volume",
+        "proximity_to_failure"
+      ],
+      "ambiguity_action": "Explain term in plain language for beginners.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_cardio",
+      "terms": [
+        "cardio"
+      ],
+      "canonical_concepts": [
+        "aerobic",
+        "anaerobic",
+        "conditioning"
+      ],
+      "ambiguity_action": "Ask goal if user asks 'best cardio'.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_abs",
+      "terms": [
+        "abs",
+        "belly fat"
+      ],
+      "canonical_concepts": [
+        "core_training",
+        "fat_loss",
+        "spot_reduction_myth"
+      ],
+      "ambiguity_action": "Avoid body shame; explain non-localised fat loss.",
+      "retrieval_enabled": true,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "kw_surrogate",
+      "terms": [
+        "surrogate",
+        "pregnancy"
+      ],
+      "canonical_concepts": [],
+      "ambiguity_action": "Do not assume; only retrieve pregnancy exercise record when user asks.",
+      "retrieval_enabled": false,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      },
+      "quarantine_reason": "Source row reads 'surrogate; pregnancy' with canonical concept 'Not a fitness keyword by default'. Row looks garbled (surrogate is unrelated to the pregnancy record). Kept for audit, not used for retrieval; the pregnancy FAQ is reached through FAQ-037 keywords instead.",
+      "source_canonical_text": "Not a fitness keyword by default"
+    }
+  ]
+}

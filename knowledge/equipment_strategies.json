@@ -1,0 +1,74 @@
+{
+  "file": "equipment_strategies.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "equipment_constraint": "Commercial gym",
+      "programming_strategy": "Use machines, cables and free weights to match preference and goal",
+      "example_movement_choices": "Machine press, cable row, squat, pulldown, leg curl",
+      "id": "commercial_gym",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "10"
+      }
+    },
+    {
+      "equipment_constraint": "Dumbbells only",
+      "programming_strategy": "Unilateral movements, tempo control, rep progression and stable setups",
+      "example_movement_choices": "Goblet squat, DB RDL, floor press, one-arm row, split squat",
+      "id": "dumbbells_only",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "10"
+      }
+    },
+    {
+      "equipment_constraint": "Resistance bands",
+      "programming_strategy": "Anchor securely; account for changing resistance through range",
+      "example_movement_choices": "Band row, press, squat, pull-apart, curl",
+      "id": "resistance_bands",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "10"
+      }
+    },
+    {
+      "equipment_constraint": "Bodyweight only",
+      "programming_strategy": "Use leverage, range, unilateral progressions and tempo",
+      "example_movement_choices": "Incline push-up → floor push-up; split squat; hip bridge; plank",
+      "id": "bodyweight_only",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "10"
+      }
+    },
+    {
+      "equipment_constraint": "Barbell and plates",
+      "programming_strategy": "Build around squat, hinge, press and row patterns",
+      "example_movement_choices": "Squat, deadlift/RDL, bench, overhead press, row",
+      "id": "barbell_and_plates",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "10"
+      }
+    },
+    {
+      "equipment_constraint": "Minimal equipment",
+      "programming_strategy": "Prioritise full-body coverage, adherence and safe progression",
+      "example_movement_choices": "Chair squat, incline push-up, backpack hinge, step-up, brisk walking",
+      "id": "minimal_equipment",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "10"
+      }
+    }
+  ]
+}

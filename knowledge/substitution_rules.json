@@ -1,0 +1,44 @@
+{
+  "file": "substitution_rules.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "subst_01",
+      "text": "First preserve the movement pattern and training intent, not just the muscle label.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "subst_02",
+      "text": "Then check equipment, skill, range tolerance, pain/limitations, stability, loading potential and user preference.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "subst_03",
+      "text": "Prefer a close substitute: barbell squat → hack squat or leg press; bench press → machine chest press; RDL → cable pull-through or hip-extension pattern.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "subst_04",
+      "text": "If pain is reported, do not automatically prescribe a workaround. Ask about symptoms and recommend appropriate assessment when indicated.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    }
+  ]
+}

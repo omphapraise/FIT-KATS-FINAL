@@ -1,0 +1,53 @@
+{
+  "file": "body_composition.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "bodycomp_01",
+      "text": "Fat loss requires a sustained energy deficit over time; exercise increases energy expenditure and supports health, fitness and lean-mass retention, but food intake and adherence also matter.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "8"
+      }
+    },
+    {
+      "id": "bodycomp_02",
+      "text": "Resistance training during weight loss helps preserve or build strength and lean tissue; adequate protein and a manageable rate of loss support this goal.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "8"
+      }
+    },
+    {
+      "id": "bodycomp_03",
+      "text": "Body recomposition is possible, especially in beginners, returning trainees and people with higher starting body-fat levels, but the rate and likelihood vary.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "8"
+      }
+    },
+    {
+      "id": "bodycomp_04",
+      "text": "Spot reduction is not a reliable fat-loss strategy. Training a body part strengthens it; it does not selectively remove nearby fat.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "8"
+      }
+    },
+    {
+      "id": "bodycomp_05",
+      "text": "Do not promise a target body weight, visible abs, a fixed weekly loss rate or a transformation deadline. Use trend data and user wellbeing.",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "8"
+      }
+    }
+  ]
+}

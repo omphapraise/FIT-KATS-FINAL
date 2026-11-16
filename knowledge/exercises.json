@@ -1,0 +1,2240 @@
+{
+  "file": "exercises.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "note": "EX-001..EX-024 are the source starter library. EX-S### are stub records for movements the source names but does not describe; they carry no technique or safety text.",
+  "records": [
+    {
+      "id": "EX-001",
+      "name": "Barbell bench press",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Horizontal push",
+      "pattern_id": "horizontal_push",
+      "equipment": "Barbell",
+      "equipment_tags": [
+        "barbell"
+      ],
+      "targets": [
+        "Chest",
+        "triceps",
+        "anterior deltoid"
+      ],
+      "primary_target": "Chest",
+      "level": "Intermediate",
+      "level_min": "intermediate",
+      "level_max": "intermediate",
+      "execution": "Set eyes under bar; retract/stabilise shoulder blades; lower under control; press smoothly",
+      "safety": "Spotter/safeties; stop for sharp pain; avoid uncontrolled bounce",
+      "goal_tags": [
+        "strength",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Push-up",
+        "machine chest press",
+        "DB press"
+      ],
+      "alternative_ids": [
+        "EX-002",
+        "EX-S001",
+        "EX-S002"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-002",
+      "name": "Push-up",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Horizontal push",
+      "pattern_id": "horizontal_push",
+      "equipment": "Bodyweight",
+      "equipment_tags": [
+        "bodyweight"
+      ],
+      "targets": [
+        "Chest",
+        "triceps",
+        "anterior deltoid",
+        "trunk"
+      ],
+      "primary_target": "Chest",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Hands set comfortably; body aligned; lower chest between hands; press floor away",
+      "safety": "Regress to incline push-up; maintain trunk position",
+      "goal_tags": [
+        "general fitness",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Incline push-up",
+        "machine press"
+      ],
+      "alternative_ids": [
+        "EX-S003",
+        "EX-S004"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-003",
+      "name": "Incline dumbbell press",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Horizontal push",
+      "pattern_id": "horizontal_push",
+      "equipment": "Dumbbells/bench",
+      "equipment_tags": [
+        "dumbbells",
+        "bench"
+      ],
+      "targets": [
+        "Chest",
+        "triceps",
+        "anterior deltoid"
+      ],
+      "primary_target": "Chest",
+      "level": "Beginner–advanced",
+      "level_min": "beginner",
+      "level_max": "advanced",
+      "execution": "Use modest incline; control descent; press without clashing dumbbells",
+      "safety": "Choose pain-free range; avoid excessive arch",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Machine incline press",
+        "push-up"
+      ],
+      "alternative_ids": [
+        "EX-S005",
+        "EX-002"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-004",
+      "name": "Lat pulldown",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Vertical pull",
+      "pattern_id": "vertical_pull",
+      "equipment": "Cable/machine",
+      "equipment_tags": [
+        "cable",
+        "machine"
+      ],
+      "targets": [
+        "Latissimus",
+        "biceps",
+        "upper back"
+      ],
+      "primary_target": "Latissimus",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Brace; pull elbows down; avoid excessive swing; control return",
+      "safety": "Do not pull behind neck as default",
+      "goal_tags": [
+        "hypertrophy",
+        "strength"
+      ],
+      "alternative_names": [
+        "Assisted pull-up",
+        "band pulldown"
+      ],
+      "alternative_ids": [
+        "EX-S006",
+        "EX-S007"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-005",
+      "name": "Chest-supported row",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Horizontal pull",
+      "pattern_id": "horizontal_pull",
+      "equipment": "Bench/machine/dumbbells",
+      "equipment_tags": [
+        "dumbbells",
+        "bench",
+        "machine"
+      ],
+      "targets": [
+        "Mid-back",
+        "lats",
+        "rear delts",
+        "biceps"
+      ],
+      "primary_target": "Mid-back",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Support torso; pull toward lower ribs; control stretch",
+      "safety": "Avoid shrugging and momentum",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Seated cable row"
+      ],
+      "alternative_ids": [
+        "EX-S008"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-006",
+      "name": "Overhead press",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Vertical push",
+      "pattern_id": "vertical_push",
+      "equipment": "Barbell/dumbbells",
+      "equipment_tags": [
+        "barbell",
+        "dumbbells"
+      ],
+      "targets": [
+        "Deltoids",
+        "triceps",
+        "trunk"
+      ],
+      "primary_target": "Deltoids",
+      "level": "Intermediate",
+      "level_min": "intermediate",
+      "level_max": "intermediate",
+      "execution": "Brace; press overhead while keeping ribcage controlled",
+      "safety": "Use pain-free range; do not force mobility",
+      "goal_tags": [
+        "strength",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Landmine press",
+        "machine press"
+      ],
+      "alternative_ids": [
+        "EX-S009",
+        "EX-S004"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-007",
+      "name": "Lateral raise",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Shoulder abduction",
+      "pattern_id": null,
+      "equipment": "Dumbbells/cable",
+      "equipment_tags": [
+        "dumbbells",
+        "cable"
+      ],
+      "targets": [
+        "Middle deltoid"
+      ],
+      "primary_target": "Middle deltoid",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Raise arms in comfortable scapular plane; control lowering",
+      "safety": "Avoid swinging heavy loads",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Machine lateral raise"
+      ],
+      "alternative_ids": [
+        "EX-S010"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      },
+      "pattern_note": "Single-joint / aerobic action; not in the section 1.2 taxonomy"
+    },
+    {
+      "id": "EX-008",
+      "name": "Cable triceps pressdown",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Elbow extension",
+      "pattern_id": null,
+      "equipment": "Cable",
+      "equipment_tags": [
+        "cable"
+      ],
+      "targets": [
+        "Triceps"
+      ],
+      "primary_target": "Triceps",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Keep upper arm steady; extend elbow; control return",
+      "safety": "Use comfortable wrist/elbow position",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Band pressdown"
+      ],
+      "alternative_ids": [
+        "EX-S011"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      },
+      "pattern_note": "Single-joint / aerobic action; not in the section 1.2 taxonomy"
+    },
+    {
+      "id": "EX-009",
+      "name": "Dumbbell curl",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Elbow flexion",
+      "pattern_id": null,
+      "equipment": "Dumbbells",
+      "equipment_tags": [
+        "dumbbells"
+      ],
+      "targets": [
+        "Biceps",
+        "brachialis"
+      ],
+      "primary_target": "Biceps",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Keep upper arm relatively stable; curl without torso swing",
+      "safety": "Avoid forced painful range",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Cable curl",
+        "machine curl"
+      ],
+      "alternative_ids": [
+        "EX-S012",
+        "EX-S013"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      },
+      "pattern_note": "Single-joint / aerobic action; not in the section 1.2 taxonomy"
+    },
+    {
+      "id": "EX-010",
+      "name": "Goblet squat",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Squat",
+      "pattern_id": "squat_knee_dominant",
+      "equipment": "Dumbbell/kettlebell",
+      "equipment_tags": [
+        "dumbbells",
+        "kettlebell"
+      ],
+      "targets": [
+        "Quadriceps",
+        "glutes",
+        "trunk"
+      ],
+      "primary_target": "Quadriceps",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Brace; sit between hips; keep whole foot grounded; stand smoothly",
+      "safety": "Use depth that preserves control and comfort",
+      "goal_tags": [
+        "general fitness",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Box squat",
+        "leg press"
+      ],
+      "alternative_ids": [
+        "EX-S014",
+        "EX-012"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-011",
+      "name": "Barbell back squat",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Squat",
+      "pattern_id": "squat_knee_dominant",
+      "equipment": "Barbell/rack",
+      "equipment_tags": [
+        "barbell",
+        "rack"
+      ],
+      "targets": [
+        "Quadriceps",
+        "glutes",
+        "trunk",
+        "adductors"
+      ],
+      "primary_target": "Quadriceps",
+      "level": "Intermediate",
+      "level_min": "intermediate",
+      "level_max": "intermediate",
+      "execution": "Brace; descend under control; maintain balance; drive up",
+      "safety": "Use safeties; coach setup; do not force depth through pain",
+      "goal_tags": [
+        "strength",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Goblet squat",
+        "hack squat"
+      ],
+      "alternative_ids": [
+        "EX-010",
+        "EX-S015"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-012",
+      "name": "Leg press",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Squat/knee-dominant",
+      "pattern_id": "squat_knee_dominant",
+      "equipment": "Machine",
+      "equipment_tags": [
+        "machine"
+      ],
+      "targets": [
+        "Quadriceps",
+        "glutes"
+      ],
+      "primary_target": "Quadriceps",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Set seat; lower sled under control; keep pelvis stable",
+      "safety": "Avoid excessive depth that causes pelvis to roll",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Goblet squat",
+        "hack squat"
+      ],
+      "alternative_ids": [
+        "EX-010",
+        "EX-S015"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-013",
+      "name": "Romanian deadlift",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Hip hinge",
+      "pattern_id": "hinge_hip_dominant",
+      "equipment": "Barbell/dumbbells",
+      "equipment_tags": [
+        "barbell",
+        "dumbbells"
+      ],
+      "targets": [
+        "Hamstrings",
+        "glutes",
+        "spinal erectors"
+      ],
+      "primary_target": "Hamstrings",
+      "level": "Intermediate",
+      "level_min": "intermediate",
+      "level_max": "intermediate",
+      "execution": "Soft knees; push hips back; keep load close; stop at controllable hamstring tension",
+      "safety": "Avoid turning it into a squat or chasing floor touch",
+      "goal_tags": [
+        "strength",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Cable pull-through",
+        "45° hip extension"
+      ],
+      "alternative_ids": [
+        "EX-S016",
+        "EX-S017"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-014",
+      "name": "Conventional deadlift",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Hip hinge",
+      "pattern_id": "hinge_hip_dominant",
+      "equipment": "Barbell",
+      "equipment_tags": [
+        "barbell"
+      ],
+      "targets": [
+        "Glutes",
+        "hamstrings",
+        "back",
+        "quads",
+        "grip"
+      ],
+      "primary_target": "Glutes",
+      "level": "Intermediate–advanced",
+      "level_min": "intermediate",
+      "level_max": "advanced",
+      "execution": "Bar over mid-foot; brace; push floor away; keep bar close",
+      "safety": "Learn with qualified instruction; manage load and fatigue",
+      "goal_tags": [
+        "strength",
+        "powerlifting"
+      ],
+      "alternative_names": [
+        "Trap-bar deadlift",
+        "block pull"
+      ],
+      "alternative_ids": [
+        "EX-S018",
+        "EX-S019"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-015",
+      "name": "Hip thrust",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Hip extension",
+      "pattern_id": "hinge_hip_dominant",
+      "equipment": "Barbell/machine",
+      "equipment_tags": [
+        "barbell",
+        "machine"
+      ],
+      "targets": [
+        "Gluteus maximus",
+        "hamstrings"
+      ],
+      "primary_target": "Gluteus maximus",
+      "level": "Beginner–advanced",
+      "level_min": "beginner",
+      "level_max": "advanced",
+      "execution": "Upper back supported; brace; extend hips; avoid lumbar overextension",
+      "safety": "Pad bar; use tolerable range",
+      "goal_tags": [
+        "hypertrophy",
+        "strength"
+      ],
+      "alternative_names": [
+        "Glute bridge",
+        "cable pull-through"
+      ],
+      "alternative_ids": [
+        "EX-S020",
+        "EX-S016"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-016",
+      "name": "Seated leg curl",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Knee flexion",
+      "pattern_id": null,
+      "equipment": "Machine",
+      "equipment_tags": [
+        "machine"
+      ],
+      "targets": [
+        "Hamstrings"
+      ],
+      "primary_target": "Hamstrings",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Align knee with machine axis; curl smoothly; control return",
+      "safety": "Adjust seat/pad; avoid painful range",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Lying leg curl",
+        "band curl"
+      ],
+      "alternative_ids": [
+        "EX-S021",
+        "EX-S022"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      },
+      "pattern_note": "Single-joint / aerobic action; not in the section 1.2 taxonomy"
+    },
+    {
+      "id": "EX-017",
+      "name": "Split squat",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Unilateral squat",
+      "pattern_id": "single_leg_split_stance",
+      "equipment": "Dumbbells/bodyweight",
+      "equipment_tags": [
+        "dumbbells",
+        "bodyweight"
+      ],
+      "targets": [
+        "Quads",
+        "glutes",
+        "adductors"
+      ],
+      "primary_target": "Quads",
+      "level": "Intermediate",
+      "level_min": "intermediate",
+      "level_max": "intermediate",
+      "execution": "Use stable stance; descend vertically; control front foot",
+      "safety": "Hold support or shorten range if balance limits",
+      "goal_tags": [
+        "strength",
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Step-up",
+        "supported split squat"
+      ],
+      "alternative_ids": [
+        "EX-S023",
+        "EX-S024"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-018",
+      "name": "Standing calf raise",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Plantarflexion",
+      "pattern_id": null,
+      "equipment": "Machine/dumbbells",
+      "equipment_tags": [
+        "dumbbells",
+        "machine"
+      ],
+      "targets": [
+        "Gastrocnemius",
+        "soleus"
+      ],
+      "primary_target": "Gastrocnemius",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Use full comfortable range; pause briefly; control lowering",
+      "safety": "Avoid bouncing",
+      "goal_tags": [
+        "hypertrophy"
+      ],
+      "alternative_names": [
+        "Leg-press calf raise"
+      ],
+      "alternative_ids": [
+        "EX-S025"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      },
+      "pattern_note": "Single-joint / aerobic action; not in the section 1.2 taxonomy"
+    },
+    {
+      "id": "EX-019",
+      "name": "Pallof press",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Anti-rotation",
+      "pattern_id": "trunk_anti_movement",
+      "equipment": "Cable/band",
+      "equipment_tags": [
+        "cable",
+        "band"
+      ],
+      "targets": [
+        "Trunk musculature"
+      ],
+      "primary_target": "Trunk musculature",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Stand tall; press hands away; resist rotation",
+      "safety": "Use manageable resistance; breathe",
+      "goal_tags": [
+        "core stability"
+      ],
+      "alternative_names": [
+        "Tall-kneeling Pallof press"
+      ],
+      "alternative_ids": [
+        "EX-S026"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-020",
+      "name": "Dead bug",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Anti-extension",
+      "pattern_id": "trunk_anti_movement",
+      "equipment": "Bodyweight",
+      "equipment_tags": [
+        "bodyweight"
+      ],
+      "targets": [
+        "Trunk musculature"
+      ],
+      "primary_target": "Trunk musculature",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Brace gently; move opposite arm/leg while maintaining trunk control",
+      "safety": "Reduce range if back position changes",
+      "goal_tags": [
+        "core control"
+      ],
+      "alternative_names": [
+        "Heel taps"
+      ],
+      "alternative_ids": [
+        "EX-S027"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-021",
+      "name": "Farmer carry",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Loaded carry",
+      "pattern_id": "carry_locomotion",
+      "equipment": "Dumbbells/kettlebells",
+      "equipment_tags": [
+        "dumbbells",
+        "kettlebell"
+      ],
+      "targets": [
+        "Grip",
+        "traps",
+        "trunk",
+        "legs"
+      ],
+      "primary_target": "Grip",
+      "level": "Beginner–advanced",
+      "level_min": "beginner",
+      "level_max": "advanced",
+      "execution": "Walk tall with controlled steps and steady breathing",
+      "safety": "Choose load/path that permits safe walking",
+      "goal_tags": [
+        "grip",
+        "general strength"
+      ],
+      "alternative_names": [
+        "Suitcase carry"
+      ],
+      "alternative_ids": [
+        "EX-S028"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-022",
+      "name": "Treadmill brisk walk",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Aerobic locomotion",
+      "pattern_id": "locomotor_conditioning",
+      "equipment": "Treadmill",
+      "equipment_tags": [
+        "treadmill"
+      ],
+      "targets": [
+        "Cardiorespiratory system",
+        "lower body"
+      ],
+      "primary_target": "Cardiorespiratory system",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Choose sustainable pace and incline; progress gradually",
+      "safety": "Stop for red-flag symptoms",
+      "goal_tags": [
+        "health",
+        "fat-loss support"
+      ],
+      "alternative_names": [
+        "Outdoor walk",
+        "cycle"
+      ],
+      "alternative_ids": [
+        "EX-S029",
+        "EX-S030"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-023",
+      "name": "Stationary cycling",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Aerobic locomotion",
+      "pattern_id": "locomotor_conditioning",
+      "equipment": "Bike",
+      "equipment_tags": [
+        "bike"
+      ],
+      "targets": [
+        "Cardiorespiratory system",
+        "legs"
+      ],
+      "primary_target": "Cardiorespiratory system",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Adjust seat; pedal smoothly; scale resistance",
+      "safety": "Avoid sudden volume spikes",
+      "goal_tags": [
+        "endurance",
+        "health"
+      ],
+      "alternative_names": [
+        "Walking",
+        "swimming"
+      ],
+      "alternative_ids": [
+        "EX-S031",
+        "EX-S032"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-024",
+      "name": "Plank",
+      "status": "reviewed_in_source",
+      "movement_pattern": "Anti-extension",
+      "pattern_id": "trunk_anti_movement",
+      "equipment": "Bodyweight",
+      "equipment_tags": [
+        "bodyweight"
+      ],
+      "targets": [
+        "Trunk"
+      ],
+      "primary_target": "Trunk",
+      "level": "Beginner",
+      "level_min": "beginner",
+      "level_max": "beginner",
+      "execution": "Maintain aligned trunk; breathe; stop before position fails",
+      "safety": "Shorter sets are fine",
+      "goal_tags": [
+        "core endurance"
+      ],
+      "alternative_names": [
+        "Incline plank",
+        "dead bug"
+      ],
+      "alternative_ids": [
+        "EX-S033",
+        "EX-020"
+      ],
+      "unresolved_alternatives": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "9"
+      }
+    },
+    {
+      "id": "EX-S001",
+      "name": "Machine chest press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-001",
+        "P01"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S002",
+      "name": "DB press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-001"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S003",
+      "name": "Incline push-up",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-002",
+        "P01",
+        "P10",
+        "P11"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S004",
+      "name": "Machine press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-002",
+        "EX-006"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S005",
+      "name": "Machine incline press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-003"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S006",
+      "name": "Assisted pull-up",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "vertical_pull",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-004"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "1.2 lists 'pull-up' under Vertical pull; assisted variant"
+    },
+    {
+      "id": "EX-S007",
+      "name": "Band pulldown",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-004"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S008",
+      "name": "Seated cable row",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "horizontal_pull",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-005"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "1.2 lists 'Cable row' under Horizontal pull"
+    },
+    {
+      "id": "EX-S009",
+      "name": "Landmine press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "vertical_push",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-006"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "1.2 lists landmine press under Vertical push"
+    },
+    {
+      "id": "EX-S010",
+      "name": "Machine lateral raise",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-007"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S011",
+      "name": "Band pressdown",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-008"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S012",
+      "name": "Cable curl",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-009"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S013",
+      "name": "Machine curl",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-009"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S014",
+      "name": "Box squat",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-010"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S015",
+      "name": "Hack squat",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-011",
+        "EX-012"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S016",
+      "name": "Cable pull-through",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-013",
+        "EX-015"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S017",
+      "name": "45° hip extension",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-013"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S018",
+      "name": "Trap-bar deadlift",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-014"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S019",
+      "name": "Block pull",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-014"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S020",
+      "name": "Glute bridge",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-015",
+        "P10"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S021",
+      "name": "Lying leg curl",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-016"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S022",
+      "name": "Band curl",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-016"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S023",
+      "name": "Step-up",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "single_leg_split_stance",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-017",
+        "P08"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "1.2 lists step-up under Single-leg"
+    },
+    {
+      "id": "EX-S024",
+      "name": "Supported split squat",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "single_leg_split_stance",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-017"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "variant of Split squat (EX-017) named in its alternatives"
+    },
+    {
+      "id": "EX-S025",
+      "name": "Leg-press calf raise",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-018"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S026",
+      "name": "Tall-kneeling Pallof press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-019"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S027",
+      "name": "Heel taps",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-020"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S028",
+      "name": "Suitcase carry",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "carry_locomotion",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-021"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "1.2 lists suitcase carry under Carry"
+    },
+    {
+      "id": "EX-S029",
+      "name": "Outdoor walk",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-022"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S030",
+      "name": "Cycle",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-022"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "review_hint": "May be EX-023 Stationary cycling (reviewer to confirm)"
+    },
+    {
+      "id": "EX-S031",
+      "name": "Walking",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-023"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S032",
+      "name": "Swimming",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-023"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S033",
+      "name": "Incline plank",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "EX-024"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S034",
+      "name": "Seated row",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P01"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "review_hint": "Likely the same movement as Seated cable row (reviewer to confirm)"
+    },
+    {
+      "id": "EX-S035",
+      "name": "DB RDL",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P01",
+        "P09"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "review_hint": "Dumbbell variant of EX-013 Romanian deadlift (reviewer to confirm)"
+    },
+    {
+      "id": "EX-S036",
+      "name": "Incline press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P03",
+        "P04"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "review_hint": "May be EX-003 Incline dumbbell press or a barbell variant (reviewer to confirm)"
+    },
+    {
+      "id": "EX-S037",
+      "name": "Leg curl",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P03",
+        "P04"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S038",
+      "name": "Pull-up",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": "vertical_pull",
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P04"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      },
+      "pattern_hint_basis": "1.2 lists pull-up under Vertical pull"
+    },
+    {
+      "id": "EX-S039",
+      "name": "Leg extension",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P04"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S040",
+      "name": "DB floor press",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P09"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S041",
+      "name": "One-arm row",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P09"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S042",
+      "name": "Chair squat",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P10"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S043",
+      "name": "Supported reverse lunge",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P10"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S044",
+      "name": "Sit-to-stand",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P11"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S045",
+      "name": "Wall push-up",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P11"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    },
+    {
+      "id": "EX-S046",
+      "name": "Balance practice near support",
+      "status": "details_pending_review",
+      "movement_pattern": null,
+      "pattern_id": null,
+      "equipment": null,
+      "equipment_tags": [],
+      "targets": [],
+      "primary_target": null,
+      "level": null,
+      "level_min": null,
+      "level_max": null,
+      "execution": null,
+      "safety": null,
+      "goal_tags": [],
+      "alternative_names": [],
+      "alternative_ids": [],
+      "unresolved_alternatives": [],
+      "referenced_by": [
+        "P11"
+      ],
+      "note": "Named in the source but has no library record. Technique and safety text must come from reviewed content; none invented here.",
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "derived from references"
+      }
+    }
+  ]
+}

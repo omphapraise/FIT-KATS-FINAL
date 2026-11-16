@@ -1,0 +1,2071 @@
+{
+  "file": "fitness_faq.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "note": "intent_category is engineering-derived from intent_label (see intent_categories.json). evidence_labels and max_humour_level are engineering-derived from the source text fields.",
+  "records": [
+    {
+      "id": "FAQ-001",
+      "question": "How do I start going to the gym?",
+      "alternative_phrasings": [
+        "How do I begin lifting?",
+        "I'm new to the gym",
+        "What should my first workout be?"
+      ],
+      "keywords": [
+        "beginner",
+        "start",
+        "gym",
+        "first workout",
+        "new lifter"
+      ],
+      "intent_label": "getting_started",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "Beginner",
+      "levels": [
+        "beginner"
+      ],
+      "audience": [],
+      "short_answer": "Start with two or three manageable full-body sessions per week and learn a few basic movement patterns.",
+      "detailed_explanation": "A simple plan is easier to repeat and progress. Start with stable exercises, moderate effort and enough rest. Technique and consistency matter more than complicated splits.",
+      "practical_recommendation": "Choose 5–7 movements covering squat, hinge, push, pull and trunk; use 1–3 sets and stop with several good reps left initially.",
+      "misconception": "You need a six-day split or advanced supplements to make progress.",
+      "warning": "Stop and seek professional advice for red-flag symptoms or relevant medical restrictions.",
+      "related_topics_raw": [
+        "training_frequency",
+        "exercise_selection",
+        "progressive_overload"
+      ],
+      "related_topics": [
+        "training_frequency",
+        "exercise_selection",
+        "progressive_overload"
+      ],
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "evidence_text": "High / professional consensus",
+      "evidence_labels": [
+        "high_strong",
+        "professional_consensus"
+      ],
+      "tone_text": "Friendly; humour optional",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-002",
+      "question": "How many days per week should I train?",
+      "alternative_phrasings": [
+        "Can I train 3 days?",
+        "Is 5 days too much?",
+        "How often should I lift?"
+      ],
+      "keywords": [
+        "frequency",
+        "days",
+        "weekly schedule",
+        "train often"
+      ],
+      "intent_label": "programming",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Choose the number of days you can attend consistently and recover from; two or more resistance sessions per week is a useful general starting point.",
+      "detailed_explanation": "Frequency distributes weekly work and practice. The best split is the one that fits the goal, schedule and recovery, not the one with the most days.",
+      "practical_recommendation": "Start with 2–3 days for beginners; use 3–4 for many intermediate plans; add days only when there is a reason.",
+      "misconception": "More gym days automatically means more muscle.",
+      "warning": "Do not train through illness, unusual pain or significant fatigue.",
+      "related_topics_raw": [
+        "full_body",
+        "upper_lower",
+        "PPL",
+        "recovery"
+      ],
+      "related_topics": [
+        "full_body",
+        "upper_lower",
+        "PPL",
+        "recovery"
+      ],
+      "source_ids": [
+        "S01",
+        "S02",
+        "S11"
+      ],
+      "evidence_text": "High for general activity; exact split individualised",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Direct",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-003",
+      "question": "What is progressive overload?",
+      "alternative_phrasings": [
+        "How do I get stronger over time?",
+        "Do I add weight every week?"
+      ],
+      "keywords": [
+        "progressive overload",
+        "add weight",
+        "reps",
+        "progression",
+        "plateau"
+      ],
+      "intent_label": "training_concept",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Progressive overload means gradually increasing the challenge your body can handle while maintaining good technique.",
+      "detailed_explanation": "You can progress reps, load, sets, range, control or exercise difficulty. It does not mean adding weight every session regardless of readiness.",
+      "practical_recommendation": "Use a rep range; when all sets reach the top with target effort and technique, add a small amount of load.",
+      "misconception": "You must add weight every workout.",
+      "warning": "If pain or technique breakdown appears, stop the progression and reassess.",
+      "related_topics_raw": [
+        "double_progression",
+        "RIR",
+        "plateau"
+      ],
+      "related_topics": [
+        "double_progression",
+        "RIR",
+        "plateau"
+      ],
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "evidence_text": "High principle; exact method coaching application",
+      "evidence_labels": [
+        "high_strong",
+        "coaching_application"
+      ],
+      "tone_text": "Plain and practical",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-004",
+      "question": "How many sets and reps should I do?",
+      "alternative_phrasings": [
+        "Is 3 sets enough?",
+        "Best rep range for muscle?",
+        "How many reps for strength?"
+      ],
+      "keywords": [
+        "sets",
+        "reps",
+        "repetition range",
+        "volume",
+        "strength",
+        "hypertrophy"
+      ],
+      "intent_label": "programming",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "There is no single best rep range for everyone; choose sets and reps based on goal, exercise, effort and experience.",
+      "detailed_explanation": "Strength benefits from practising heavier loads; hypertrophy can occur across a broad range when sets are sufficiently challenging and weekly volume is appropriate.",
+      "practical_recommendation": "Begin with 2–3 work sets per exercise; use moderate reps for many exercises and adjust based on goal and comfort.",
+      "misconception": "10 reps is the only muscle-building range.",
+      "warning": "Avoid maximal effort testing without appropriate experience and supervision.",
+      "related_topics_raw": [
+        "hypertrophy",
+        "strength",
+        "RIR",
+        "weekly_volume"
+      ],
+      "related_topics": [
+        "hypertrophy",
+        "strength",
+        "RIR",
+        "weekly_volume"
+      ],
+      "source_ids": [
+        "S01",
+        "S03",
+        "S11"
+      ],
+      "evidence_text": "High",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Educational",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-005",
+      "question": "Do I need to train to failure?",
+      "alternative_phrasings": [
+        "Should every set be to failure?",
+        "How close to failure?"
+      ],
+      "keywords": [
+        "failure",
+        "muscular failure",
+        "RIR",
+        "reps in reserve"
+      ],
+      "intent_label": "training_intensity",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "No. Training to failure is not required for every set or every exercise.",
+      "detailed_explanation": "Stopping with a few good reps left can produce productive training while managing fatigue. Failure may be used selectively on safer exercises.",
+      "practical_recommendation": "Most sets can finish around 1–3 RIR; use more reserve on new or technical movements.",
+      "misconception": "If a set does not end in failure it was wasted.",
+      "warning": "Do not take heavy technical lifts to failure without suitable safeguards.",
+      "related_topics_raw": [
+        "RIR",
+        "RPE",
+        "fatigue"
+      ],
+      "related_topics": [
+        "RIR",
+        "RPE",
+        "fatigue"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "High that failure is not universally required",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Calm",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-006",
+      "question": "What does RIR mean?",
+      "alternative_phrasings": [
+        "What is 2 RIR?",
+        "How many reps left?"
+      ],
+      "keywords": [
+        "RIR",
+        "reps in reserve",
+        "effort"
+      ],
+      "intent_label": "training_terminology",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "RIR means how many additional good-quality repetitions you think you could complete before failure.",
+      "detailed_explanation": "2 RIR means you stop when you estimate two more clean reps were possible. It is a skill and estimates can be inaccurate, especially for beginners.",
+      "practical_recommendation": "Start by using broad effort descriptions; calibrate RIR over time on safe exercises.",
+      "misconception": "RIR is an exact measurement.",
+      "warning": "Avoid testing true failure on risky lifts just to calibrate.",
+      "related_topics_raw": [
+        "RPE",
+        "failure",
+        "load"
+      ],
+      "related_topics": [
+        "RPE",
+        "failure",
+        "load"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Moderate; subjective estimate",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Simple analogy",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-007",
+      "question": "What is RPE in weight training?",
+      "alternative_phrasings": [
+        "Explain RPE 8",
+        "How hard should a set feel?"
+      ],
+      "keywords": [
+        "RPE",
+        "rate of perceived exertion",
+        "effort scale"
+      ],
+      "intent_label": "training_terminology",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate–advanced",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "audience": [],
+      "short_answer": "RPE is a rating of how hard a set feels; in common lifting scales, RPE 10 is maximal and RPE 8 is roughly two reps in reserve.",
+      "detailed_explanation": "RPE helps adjust loading on days when readiness varies. It depends on honest, consistent self-assessment.",
+      "practical_recommendation": "Use RPE 6–8 for much general work and learn the scale gradually.",
+      "misconception": "RPE 8 means 8 repetitions.",
+      "warning": "Do not confuse RPE with heart-rate zones.",
+      "related_topics_raw": [
+        "RIR",
+        "autoregulation",
+        "training max"
+      ],
+      "related_topics": [
+        "RIR",
+        "autoregulation",
+        "training_max"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Coaching convention",
+      "evidence_labels": [
+        "coaching_application"
+      ],
+      "tone_text": "Technical when needed",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-008",
+      "question": "How long should I rest between sets?",
+      "alternative_phrasings": [
+        "Is 30 seconds enough?",
+        "Rest between exercises?"
+      ],
+      "keywords": [
+        "rest",
+        "rest period",
+        "recovery between sets"
+      ],
+      "intent_label": "programming",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Rest long enough to perform the next set with the quality your goal requires.",
+      "detailed_explanation": "Hard compound lifts often need around 2–3 minutes or more; lighter isolation work may need less. Short rests are not automatically superior.",
+      "practical_recommendation": "If reps or technique collapse because rest is too short, rest longer.",
+      "misconception": "Short rest always burns more fat or builds more muscle.",
+      "warning": "If dizzy, faint or unusually breathless, stop and assess rather than forcing the next set.",
+      "related_topics_raw": [
+        "strength",
+        "hypertrophy",
+        "fatigue"
+      ],
+      "related_topics": [
+        "strength",
+        "hypertrophy",
+        "fatigue"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Moderate; context-dependent",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Concise",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-009",
+      "question": "What is hypertrophy?",
+      "alternative_phrasings": [
+        "How does muscle grow?",
+        "Muscle growth meaning"
+      ],
+      "keywords": [
+        "hypertrophy",
+        "muscle growth",
+        "size",
+        "bodybuilding"
+      ],
+      "intent_label": "definition",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Hypertrophy is an increase in muscle size, largely through enlargement of muscle fibres.",
+      "detailed_explanation": "Resistance training provides a stimulus; recovery and nutrition support adaptation. Growth depends on repeated training over time.",
+      "practical_recommendation": "Train muscles consistently with sufficient challenging work, progressive progression and adequate nutrition.",
+      "misconception": "A pump or soreness proves growth happened.",
+      "warning": "Avoid unrealistic transformation promises.",
+      "related_topics_raw": [
+        "weekly_volume",
+        "protein",
+        "recovery"
+      ],
+      "related_topics": [
+        "weekly_volume",
+        "protein",
+        "recovery"
+      ],
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "evidence_text": "High",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Friendly educational",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-010",
+      "question": "How many sets per muscle per week?",
+      "alternative_phrasings": [
+        "How much chest volume?",
+        "Is 20 sets too much?"
+      ],
+      "keywords": [
+        "weekly sets",
+        "volume",
+        "chest sets",
+        "back volume",
+        "muscle group"
+      ],
+      "intent_label": "hypertrophy_programming",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate–advanced",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "audience": [],
+      "short_answer": "Start with a recoverable amount and adjust; more weekly sets can help up to a point, with diminishing returns.",
+      "detailed_explanation": "The 2026 ACSM overview identifies higher weekly volumes (≥10 sets/week) as associated with greater hypertrophy in its synthesis, but individual response and indirect work matter.",
+      "practical_recommendation": "Track direct and indirect work; begin conservatively and add only if progress and recovery support it.",
+      "misconception": "Everyone needs 20 sets per muscle.",
+      "warning": "Persistent performance decline or joint pain warrants adjustment.",
+      "related_topics_raw": [
+        "frequency",
+        "indirect_sets",
+        "recovery"
+      ],
+      "related_topics": [
+        "frequency",
+        "indirect_sets",
+        "recovery"
+      ],
+      "source_ids": [
+        "S01",
+        "S11"
+      ],
+      "evidence_text": "High direction; exact dose individualised",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Technical but clear",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-011",
+      "question": "What workout split should I use?",
+      "alternative_phrasings": [
+        "Full body or PPL?",
+        "Upper lower vs bro split?"
+      ],
+      "keywords": [
+        "split",
+        "full body",
+        "upper lower",
+        "PPL",
+        "body part split"
+      ],
+      "intent_label": "programme_choice",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Choose a split that matches available days, experience, goal and preference.",
+      "detailed_explanation": "Full-body works well for fewer days; upper/lower suits four days; PPL can suit higher-frequency routines when recovery and attendance are reliable.",
+      "practical_recommendation": "Tell the plan generator your available days and session length; choose the simplest split that covers the goal.",
+      "misconception": "One split is scientifically best for everyone.",
+      "warning": "Do not cram missed sessions into one oversized workout.",
+      "related_topics_raw": [
+        "full_body",
+        "upper_lower",
+        "PPL",
+        "frequency"
+      ],
+      "related_topics": [
+        "full_body",
+        "upper_lower",
+        "PPL",
+        "frequency"
+      ],
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "evidence_text": "High principle; split choice practical",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Conversational",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-012",
+      "question": "Why am I not getting stronger?",
+      "alternative_phrasings": [
+        "My bench is stuck",
+        "I hit a plateau",
+        "My lifts stopped progressing"
+      ],
+      "keywords": [
+        "plateau",
+        "stuck",
+        "strength",
+        "bench stalled",
+        "no progress"
+      ],
+      "intent_label": "troubleshooting",
+      "intent_category": "troubleshooting",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "A plateau can come from programming, technique, recovery, inconsistent training, load jumps or normal slower progress.",
+      "detailed_explanation": "Review trends rather than one workout. Strength is also skill-specific and affected by sleep, stress and bodyweight changes.",
+      "practical_recommendation": "Check attendance and logging; review technique; use smaller load jumps; adjust volume only after checking recovery.",
+      "misconception": "The only solution is to change the whole programme.",
+      "warning": "Pain, sudden weakness or neurological symptoms need clinical assessment.",
+      "related_topics_raw": [
+        "progressive_overload",
+        "fatigue",
+        "technique",
+        "sleep"
+      ],
+      "related_topics": [
+        "progressive_overload",
+        "fatigue",
+        "technique",
+        "sleep"
+      ],
+      "source_ids": [
+        "S01",
+        "S03",
+        "S11"
+      ],
+      "evidence_text": "Moderate–high",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Supportive, analytical",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-013",
+      "question": "Can I lose belly fat with ab exercises?",
+      "alternative_phrasings": [
+        "How do I lose lower belly fat?",
+        "Spot reduction?"
+      ],
+      "keywords": [
+        "belly fat",
+        "abs",
+        "spot reduction",
+        "lower stomach"
+      ],
+      "intent_label": "fat_loss_myth",
+      "intent_category": "myth_correction",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Ab exercises strengthen abdominal muscles, but they do not reliably burn fat only from the belly.",
+      "detailed_explanation": "Fat distribution and loss are influenced by overall energy balance, genetics and individual physiology.",
+      "practical_recommendation": "Use sustainable nutrition habits, whole-body activity and resistance training; train abs for strength if desired.",
+      "misconception": "Crunches melt belly fat specifically.",
+      "warning": "Avoid extreme dieting or body-shaming language.",
+      "related_topics_raw": [
+        "energy_balance",
+        "body_composition",
+        "core"
+      ],
+      "related_topics": [
+        "energy_balance",
+        "body_composition",
+        "core"
+      ],
+      "source_ids": [
+        "S02"
+      ],
+      "evidence_text": "High",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Empathetic",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-014",
+      "question": "Does soreness mean I had a good workout?",
+      "alternative_phrasings": [
+        "Why am I not sore?",
+        "DOMS meaning"
+      ],
+      "keywords": [
+        "soreness",
+        "DOMS",
+        "muscle pain",
+        "workout quality"
+      ],
+      "intent_label": "recovery_myth",
+      "intent_category": "myth_correction",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "No. Soreness is not a reliable measure of workout quality or muscle growth.",
+      "detailed_explanation": "Novel exercises and eccentric work can cause soreness, but adaptation can occur without much soreness. Severe pain is not the goal.",
+      "practical_recommendation": "Judge progress by performance, consistency, technique and recovery rather than soreness alone.",
+      "misconception": "No soreness means no gains.",
+      "warning": "Sharp, severe, worsening or unusual pain is different from ordinary soreness and needs caution.",
+      "related_topics_raw": [
+        "recovery",
+        "fatigue",
+        "pain"
+      ],
+      "related_topics": [
+        "recovery",
+        "fatigue",
+        "pain"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Moderate–high",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Light reassurance",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-015",
+      "question": "How much protein do I need?",
+      "alternative_phrasings": [
+        "Protein per day for gym",
+        "Is 100g enough?"
+      ],
+      "keywords": [
+        "protein",
+        "grams",
+        "g/kg",
+        "muscle building",
+        "diet"
+      ],
+      "intent_label": "nutrition",
+      "intent_category": "nutrition",
+      "safety_sensitive": false,
+      "level_raw": "Adults",
+      "levels": [
+        "all"
+      ],
+      "audience": [
+        "adults"
+      ],
+      "short_answer": "For many healthy exercising adults, ISSN cites about 1.4–2.0 g/kg/day as a useful range; actual needs depend on context.",
+      "detailed_explanation": "Total daily intake is more important than a narrow post-workout timing window. Protein foods or supplements can both contribute.",
+      "practical_recommendation": "Estimate needs using body weight and context; prioritise affordable foods and a sustainable pattern.",
+      "misconception": "You must drink a shake immediately after training.",
+      "warning": "Medical conditions, pregnancy, adolescence or eating-disorder concerns require qualified advice.",
+      "related_topics_raw": [
+        "protein_foods",
+        "whey",
+        "calorie_deficit"
+      ],
+      "related_topics": [
+        "protein_foods",
+        "whey",
+        "calorie_deficit"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "evidence_text": "Professional position stand; population-specific",
+      "evidence_labels": [
+        "professional_consensus"
+      ],
+      "tone_text": "Practical, non-judgmental",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-016",
+      "question": "Is creatine safe and what does it do?",
+      "alternative_phrasings": [
+        "Creatine monohydrate",
+        "Does creatine make you bigger?",
+        "Loading?"
+      ],
+      "keywords": [
+        "creatine",
+        "monohydrate",
+        "supplement",
+        "strength",
+        "water weight"
+      ],
+      "intent_label": "supplement",
+      "intent_category": "nutrition",
+      "safety_sensitive": false,
+      "level_raw": "Adults",
+      "levels": [
+        "all"
+      ],
+      "audience": [
+        "adults"
+      ],
+      "short_answer": "Creatine monohydrate is one of the best-supported sports supplements for improving repeated high-intensity exercise capacity and training adaptations.",
+      "detailed_explanation": "It increases muscle creatine stores; some people notice early body-mass increase from water stored with muscle. It is not a steroid.",
+      "practical_recommendation": "Use a reputable product; discuss use with a clinician if you have kidney disease, are pregnant, under 18 or have medical complexity.",
+      "misconception": "Creatine is a steroid or automatically damages kidneys in healthy users.",
+      "warning": "Do not provide personalised medical clearance or advise minors to supplement unsupervised.",
+      "related_topics_raw": [
+        "protein",
+        "supplements",
+        "hydration"
+      ],
+      "related_topics": [
+        "protein",
+        "supplements",
+        "hydration"
+      ],
+      "source_ids": [
+        "S05"
+      ],
+      "evidence_text": "Strong for healthy adults; medical populations need clinician",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Matter-of-fact",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-017",
+      "question": "Should I do cardio if I want to build muscle?",
+      "alternative_phrasings": [
+        "Does cardio kill gains?",
+        "Can I run and lift?"
+      ],
+      "keywords": [
+        "cardio",
+        "concurrent training",
+        "muscle gain",
+        "interference"
+      ],
+      "intent_label": "programming",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Yes. Cardio and resistance training can coexist; programme the dose and schedule around your priorities.",
+      "detailed_explanation": "The interaction depends on volume, intensity, modality, timing and training status. A large endurance load can make recovery harder, but ordinary cardio does not automatically erase muscle gains.",
+      "practical_recommendation": "Start with manageable cardio; separate demanding sessions when possible and protect key lifting sessions.",
+      "misconception": "Any cardio destroys muscle.",
+      "warning": "If exercise causes unusual symptoms, stop and seek advice.",
+      "related_topics_raw": [
+        "WHO_activity",
+        "zone2",
+        "HIIT",
+        "recovery"
+      ],
+      "related_topics": [
+        "WHO_activity",
+        "zone2",
+        "HIIT",
+        "recovery"
+      ],
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "evidence_text": "Moderate; context-dependent",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Reassuring",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-018",
+      "question": "What is Zone 2 cardio?",
+      "alternative_phrasings": [
+        "Zone two",
+        "easy aerobic base",
+        "conversational pace"
+      ],
+      "keywords": [
+        "zone 2",
+        "aerobic base",
+        "heart rate",
+        "cardio zones"
+      ],
+      "intent_label": "cardio_definition",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate–advanced",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "audience": [],
+      "short_answer": "Zone 2 is a commonly used label for lower-intensity aerobic training, but exact zone boundaries depend on the model and individual physiology.",
+      "detailed_explanation": "Wrist-watch zones can be inaccurate; talk test and testing can help but are not interchangeable with lab thresholds.",
+      "practical_recommendation": "Use a pace where conversation is possible for many practical sessions; individualise based on fitness and health.",
+      "misconception": "Zone 2 is exactly the same heart rate for everyone.",
+      "warning": "People with cardiac conditions or symptoms should follow clinician guidance.",
+      "related_topics_raw": [
+        "aerobic",
+        "HIIT",
+        "heart_rate"
+      ],
+      "related_topics": [
+        "aerobic",
+        "HIIT",
+        "heart_rate"
+      ],
+      "source_ids": [
+        "S02"
+      ],
+      "evidence_text": "Moderate; definitions vary",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Simple",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-019",
+      "question": "How much cardio should I do for health?",
+      "alternative_phrasings": [
+        "Weekly cardio recommendation",
+        "WHO activity target"
+      ],
+      "keywords": [
+        "cardio minutes",
+        "physical activity",
+        "WHO",
+        "aerobic"
+      ],
+      "intent_label": "health_guideline",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "Adults",
+      "levels": [
+        "all"
+      ],
+      "audience": [
+        "adults"
+      ],
+      "short_answer": "WHO recommends 150–300 minutes moderate activity or 75–150 minutes vigorous activity weekly, plus muscle strengthening on at least two days.",
+      "detailed_explanation": "These are public-health guidelines; any movement is better than none and inactive people should build up gradually.",
+      "practical_recommendation": "Accumulate activity in manageable sessions and reduce sedentary time.",
+      "misconception": "You must do all cardio in one session.",
+      "warning": "Medical limitations or concerning symptoms require individual advice.",
+      "related_topics_raw": [
+        "walking",
+        "strength_training",
+        "sedentary"
+      ],
+      "related_topics": [
+        "walking",
+        "strength_training",
+        "sedentary"
+      ],
+      "source_ids": [
+        "S02",
+        "S10"
+      ],
+      "evidence_text": "High / guideline",
+      "evidence_labels": [
+        "high_strong",
+        "professional_consensus"
+      ],
+      "tone_text": "Encouraging",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-020",
+      "question": "What should I eat before or after training?",
+      "alternative_phrasings": [
+        "Pre-workout meal",
+        "Post workout food",
+        "Protein timing"
+      ],
+      "keywords": [
+        "pre workout",
+        "post workout",
+        "meal",
+        "carbs",
+        "protein"
+      ],
+      "intent_label": "nutrition",
+      "intent_category": "nutrition",
+      "safety_sensitive": false,
+      "level_raw": "Adults",
+      "levels": [
+        "all"
+      ],
+      "audience": [
+        "adults"
+      ],
+      "short_answer": "Eat in a way that supports energy, comfort and your overall daily nutrition; a normal meal with protein and carbohydrate works for many people.",
+      "detailed_explanation": "Exact timing is less important than consistent daily intake and tolerability. Training soon after a large meal may feel uncomfortable.",
+      "practical_recommendation": "Choose a familiar meal or snack that sits well; include protein across the day.",
+      "misconception": "You have a tiny 30-minute anabolic window or the workout is wasted.",
+      "warning": "Clinical diets and medical nutrition needs belong to qualified professionals.",
+      "related_topics_raw": [
+        "protein",
+        "carbs",
+        "hydration"
+      ],
+      "related_topics": [
+        "protein",
+        "carbs",
+        "hydration"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "evidence_text": "Moderate–high",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Practical",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-021",
+      "question": "How do I improve my squat?",
+      "alternative_phrasings": [
+        "Squat tips",
+        "My squat feels awkward",
+        "Squat depth"
+      ],
+      "keywords": [
+        "squat",
+        "technique",
+        "depth",
+        "bracing",
+        "knee tracking"
+      ],
+      "intent_label": "exercise_howto",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Build a repeatable stance, brace, control the descent and use a depth you can reach with balance and comfort.",
+      "detailed_explanation": "Anatomy, mobility, footwear, bar position and goal affect technique. There is no single stance that fits everyone.",
+      "practical_recommendation": "Film a light set from side/front if safe; use a coach; progress load only while technique remains stable.",
+      "misconception": "Knees must never travel past toes.",
+      "warning": "Pain, instability or sudden loss of strength warrants assessment.",
+      "related_topics_raw": [
+        "leg_press",
+        "goblet_squat",
+        "bracing"
+      ],
+      "related_topics": [
+        "leg_press",
+        "goblet_squat",
+        "bracing"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Coaching consensus",
+      "evidence_labels": [
+        "professional_consensus",
+        "coaching_application"
+      ],
+      "tone_text": "Clear, non-shaming",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-022",
+      "question": "How do I improve my bench press?",
+      "alternative_phrasings": [
+        "Bench stalled",
+        "Stronger chest press",
+        "Bench technique"
+      ],
+      "keywords": [
+        "bench",
+        "bench press",
+        "press",
+        "chest strength",
+        "setup"
+      ],
+      "intent_label": "exercise_howto",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate",
+      "levels": [
+        "intermediate"
+      ],
+      "audience": [],
+      "short_answer": "Practise the bench consistently, use a repeatable setup, choose sensible loading and build supporting upper-body strength.",
+      "detailed_explanation": "Strength is specific; technique and volume distribution matter. Do not max out every session.",
+      "practical_recommendation": "Use submaximal sets, log performance and add small load increments when earned.",
+      "misconception": "Maxing out every week is the fastest route.",
+      "warning": "Use safeties or a competent spotter; stop for shoulder/chest pain.",
+      "related_topics_raw": [
+        "horizontal_push",
+        "triceps",
+        "RPE"
+      ],
+      "related_topics": [
+        "horizontal_push",
+        "triceps",
+        "RPE"
+      ],
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "evidence_text": "High principles; individual technique",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Coach-like",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-023",
+      "question": "How do I improve my deadlift?",
+      "alternative_phrasings": [
+        "Deadlift tips",
+        "Conventional vs sumo",
+        "My back rounds"
+      ],
+      "keywords": [
+        "deadlift",
+        "hinge",
+        "conventional",
+        "sumo",
+        "setup"
+      ],
+      "intent_label": "exercise_howto",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate",
+      "levels": [
+        "intermediate"
+      ],
+      "audience": [],
+      "short_answer": "Build a consistent start position, brace, keep the bar close and progress loads gradually.",
+      "detailed_explanation": "Conventional and sumo are both valid; anatomy, comfort, rules and performance influence selection.",
+      "practical_recommendation": "Practise submaximal technique sets; consider coaching if setup is uncertain.",
+      "misconception": "One style is best for every body.",
+      "warning": "Stop for sharp pain, numbness, weakness or other concerning symptoms.",
+      "related_topics_raw": [
+        "RDL",
+        "hinge",
+        "bracing",
+        "powerlifting"
+      ],
+      "related_topics": [
+        "RDL",
+        "hinge",
+        "bracing",
+        "powerlifting"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Coaching consensus",
+      "evidence_labels": [
+        "professional_consensus",
+        "coaching_application"
+      ],
+      "tone_text": "Technical, calm",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-024",
+      "question": "Should I train when I'm sick?",
+      "alternative_phrasings": [
+        "Gym with a cold",
+        "Exercise while ill"
+      ],
+      "keywords": [
+        "sick",
+        "illness",
+        "fever",
+        "training"
+      ],
+      "intent_label": "safety",
+      "intent_category": "pain_safety",
+      "safety_sensitive": true,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Do not train hard with fever, significant systemic symptoms or feeling acutely unwell; rest and return gradually when recovered.",
+      "detailed_explanation": "Illness can affect hydration, coordination and cardiovascular strain. Mild symptoms still require judgement and infection-control consideration.",
+      "practical_recommendation": "Prioritise rest; resume with an easier session after symptoms improve.",
+      "misconception": "Sweating out an illness makes it leave faster.",
+      "warning": "Chest symptoms, breathing difficulty, faintness or severe illness require medical care.",
+      "related_topics_raw": [
+        "recovery",
+        "return_to_training"
+      ],
+      "related_topics": [
+        "recovery",
+        "return_to_training"
+      ],
+      "source_ids": [
+        "S09"
+      ],
+      "evidence_text": "Professional caution",
+      "evidence_labels": [
+        "professional_consensus"
+      ],
+      "tone_text": "Serious, no jokes",
+      "max_humour_level": "H0",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-025",
+      "question": "What should I do if an exercise hurts?",
+      "alternative_phrasings": [
+        "Pain during squat",
+        "Shoulder hurts on bench",
+        "Is pain normal?"
+      ],
+      "keywords": [
+        "pain",
+        "injury",
+        "sharp pain",
+        "discomfort",
+        "joint pain"
+      ],
+      "intent_label": "safety",
+      "intent_category": "pain_safety",
+      "safety_sensitive": true,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Stop or modify the painful movement; do not force through sharp, escalating or unusual pain.",
+      "detailed_explanation": "Not all discomfort is injury, but a chatbot cannot diagnose. Persistent or severe pain needs assessment.",
+      "practical_recommendation": "Ask where, when and how severe; refer to clinician/physio when persistent, severe or function-limiting.",
+      "misconception": "Pain means the exercise is working.",
+      "warning": "Urgent care for chest pain, fainting, severe weakness, major swelling, deformity or neurological red flags.",
+      "related_topics_raw": [
+        "injury",
+        "exercise_substitution",
+        "medical_referral"
+      ],
+      "related_topics": [
+        "injury",
+        "exercise_substitution",
+        "medical_referral"
+      ],
+      "source_ids": [
+        "S09"
+      ],
+      "evidence_text": "Safety consensus",
+      "evidence_labels": [
+        "professional_consensus"
+      ],
+      "tone_text": "Empathetic; no humour",
+      "max_humour_level": "H0",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-026",
+      "question": "What is a deload?",
+      "alternative_phrasings": [
+        "Deload week",
+        "Should I take a week off?"
+      ],
+      "keywords": [
+        "deload",
+        "fatigue",
+        "recovery week",
+        "volume reduction"
+      ],
+      "intent_label": "recovery",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate–advanced",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "audience": [],
+      "short_answer": "A deload is a planned or responsive period of reduced training stress to help manage fatigue; it is a tool, not a mandatory calendar event.",
+      "detailed_explanation": "The exact structure varies. Some users reduce sets, load, proximity to failure or training days.",
+      "practical_recommendation": "Consider a lighter week when fatigue and performance trends justify it; return progressively.",
+      "misconception": "Everyone must deload every fourth week.",
+      "warning": "Persistent unexplained fatigue or symptoms may require medical evaluation.",
+      "related_topics_raw": [
+        "fatigue",
+        "plateau",
+        "recovery"
+      ],
+      "related_topics": [
+        "fatigue",
+        "plateau",
+        "recovery"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Coaching application; evidence protocol not universal",
+      "evidence_labels": [
+        "coaching_application"
+      ],
+      "tone_text": "Plain",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-027",
+      "question": "Can women lift weights? Will it make them bulky?",
+      "alternative_phrasings": [
+        "Women strength training",
+        "female muscle gain"
+      ],
+      "keywords": [
+        "women",
+        "gender",
+        "lifting",
+        "bulky",
+        "strength"
+      ],
+      "intent_label": "myth_correction",
+      "intent_category": "myth_correction",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Yes. Resistance training benefits women; gaining large amounts of muscle takes substantial time, training and individual factors.",
+      "detailed_explanation": "Sex does not require a completely different exercise list. Programming should reflect goals, experience and individual context.",
+      "practical_recommendation": "Choose training based on the user's goal, not gender stereotypes.",
+      "misconception": "Women should only use light weights or high reps.",
+      "warning": "Pregnancy/postpartum needs individual guidance, not blanket exclusion.",
+      "related_topics_raw": [
+        "hypertrophy",
+        "strength",
+        "pregnancy"
+      ],
+      "related_topics": [
+        "hypertrophy",
+        "strength",
+        "pregnancy"
+      ],
+      "source_ids": [
+        "S01",
+        "S06"
+      ],
+      "evidence_text": "High",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Respectful, lightly playful only if user invites",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-028",
+      "question": "How do I build muscle at home with dumbbells?",
+      "alternative_phrasings": [
+        "Dumbbell-only workout",
+        "Home muscle building"
+      ],
+      "keywords": [
+        "home gym",
+        "dumbbells",
+        "equipment",
+        "workout"
+      ],
+      "intent_label": "programme_generation",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "Beginner–intermediate",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "audience": [],
+      "short_answer": "You can build strength and muscle at home if exercises challenge the target muscles and progress over time.",
+      "detailed_explanation": "Use squat, hinge, push, pull, single-leg and trunk patterns; limited loads can be offset with unilateral work and reps.",
+      "practical_recommendation": "Build a 2–4 day routine based on equipment and time.",
+      "misconception": "Home workouts cannot build muscle.",
+      "warning": "Check equipment condition and clear training space.",
+      "related_topics_raw": [
+        "dumbbell_program",
+        "progressive_overload"
+      ],
+      "related_topics": [
+        "dumbbell_program",
+        "progressive_overload"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "High principles",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Encouraging",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-029",
+      "question": "How much water should I drink?",
+      "alternative_phrasings": [
+        "Hydration for gym",
+        "Water during workout"
+      ],
+      "keywords": [
+        "water",
+        "hydration",
+        "sweat",
+        "electrolytes"
+      ],
+      "intent_label": "nutrition_safety",
+      "intent_category": "nutrition",
+      "safety_sensitive": true,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Hydration needs vary with body size, heat, sweat rate, food and session length; there is no single litre target for everyone.",
+      "detailed_explanation": "Long/hot sessions and heavy sweating change needs. Overdrinking can also be dangerous.",
+      "practical_recommendation": "Drink regularly and use thirst, conditions and session demands as guides; seek tailored advice for endurance events or medical issues.",
+      "misconception": "Everyone must drink a fixed amount every hour.",
+      "warning": "Confusion, vomiting, severe headache or collapse during/after exercise needs urgent assessment.",
+      "related_topics_raw": [
+        "electrolytes",
+        "endurance",
+        "heat"
+      ],
+      "related_topics": [
+        "electrolytes",
+        "endurance",
+        "heat"
+      ],
+      "source_ids": [
+        "S02"
+      ],
+      "evidence_text": "General consensus; exact needs individual",
+      "evidence_labels": [
+        "professional_consensus"
+      ],
+      "tone_text": "Practical",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-030",
+      "question": "How do I know if I'm overtraining?",
+      "alternative_phrasings": [
+        "Always tired from gym",
+        "Overtraining syndrome"
+      ],
+      "keywords": [
+        "overtraining",
+        "fatigue",
+        "poor performance",
+        "recovery"
+      ],
+      "intent_label": "recovery_safety",
+      "intent_category": "pain_safety",
+      "safety_sensitive": true,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Persistent fatigue and declining performance can signal that training or life stress exceeds recovery, but a chatbot cannot diagnose overtraining syndrome.",
+      "detailed_explanation": "Check sleep, illness, nutrition, stress and workload. Overtraining syndrome is more serious than ordinary tiredness.",
+      "practical_recommendation": "Reduce training stress, review recovery and seek healthcare advice if symptoms persist or are severe.",
+      "misconception": "Being exhausted every day means you're training hard enough.",
+      "warning": "Persistent unexplained fatigue, mood changes or illness warrants professional review.",
+      "related_topics_raw": [
+        "deload",
+        "sleep",
+        "workload"
+      ],
+      "related_topics": [
+        "deload",
+        "sleep",
+        "workload"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Moderate; diagnosis is clinical",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Supportive",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-031",
+      "question": "How do I make a workout plan?",
+      "alternative_phrasings": [
+        "Build me a routine",
+        "Create a gym programme"
+      ],
+      "keywords": [
+        "workout plan",
+        "routine",
+        "schedule",
+        "goal"
+      ],
+      "intent_label": "programme_generation",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "A good plan starts with your goal, experience, available days, session length, equipment and any limitations.",
+      "detailed_explanation": "The same programme should not be issued to a powerlifter, bodybuilder, athlete and general-fitness beginner.",
+      "practical_recommendation": "Collect essential inputs; generate an explainable plan; include progression and alternatives.",
+      "misconception": "One generic routine fits everyone.",
+      "warning": "Screen safety constraints before programming.",
+      "related_topics_raw": [
+        "goal",
+        "experience",
+        "equipment",
+        "schedule"
+      ],
+      "related_topics": [
+        "goal",
+        "experience",
+        "equipment",
+        "schedule"
+      ],
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "evidence_text": "High principle",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Helpful",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-032",
+      "question": "What is body recomposition?",
+      "alternative_phrasings": [
+        "Lose fat and gain muscle at same time",
+        "recomp"
+      ],
+      "keywords": [
+        "recomp",
+        "body recomposition",
+        "fat loss",
+        "muscle gain"
+      ],
+      "intent_label": "definition",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Body recomposition means reducing fat mass while maintaining or increasing lean mass.",
+      "detailed_explanation": "It is more achievable for beginners, returning trainees or people with higher starting body fat, but rates vary and are not guaranteed.",
+      "practical_recommendation": "Prioritise resistance training, adequate protein, sustainable energy intake and patience.",
+      "misconception": "You can gain muscle and lose fat rapidly at any starting point.",
+      "warning": "Avoid aggressive dieting, especially for minors or users with eating-disorder risk.",
+      "related_topics_raw": [
+        "energy_balance",
+        "protein",
+        "hypertrophy"
+      ],
+      "related_topics": [
+        "energy_balance",
+        "protein",
+        "hypertrophy"
+      ],
+      "source_ids": [
+        "S04"
+      ],
+      "evidence_text": "Moderate–high",
+      "evidence_labels": [
+        "moderate"
+      ],
+      "tone_text": "Reassuring",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-033",
+      "question": "What is the difference between strength and hypertrophy training?",
+      "alternative_phrasings": [
+        "Train for size or strength?"
+      ],
+      "keywords": [
+        "strength",
+        "hypertrophy",
+        "muscle size",
+        "1RM"
+      ],
+      "intent_label": "comparison",
+      "intent_category": "comparison",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Strength training prioritises force and skill in specific tasks; hypertrophy training prioritises muscle growth through sufficient challenging work.",
+      "detailed_explanation": "They overlap: bigger muscles can support strength, and strength training can grow muscle. Programming emphasis differs.",
+      "practical_recommendation": "Choose based on primary outcome and combine when appropriate.",
+      "misconception": "You must choose only one forever.",
+      "warning": "Max testing and advanced loading require experience and safeguards.",
+      "related_topics_raw": [
+        "powerlifting",
+        "bodybuilding",
+        "programming"
+      ],
+      "related_topics": [
+        "powerlifting",
+        "bodybuilding",
+        "programming"
+      ],
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "evidence_text": "High",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Educational",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-034",
+      "question": "What is a 1RM?",
+      "alternative_phrasings": [
+        "One rep max",
+        "How do I test max?"
+      ],
+      "keywords": [
+        "1RM",
+        "one rep max",
+        "max strength"
+      ],
+      "intent_label": "definition",
+      "intent_category": "definition",
+      "safety_sensitive": false,
+      "level_raw": "Intermediate–advanced",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "audience": [],
+      "short_answer": "A one-repetition maximum is the heaviest load you can lift once with acceptable technique.",
+      "detailed_explanation": "It is specific to the lift and conditions. Estimates from submaximal sets are often enough for programming.",
+      "practical_recommendation": "Use a conservative estimated 1RM when appropriate; direct testing should be supervised and planned.",
+      "misconception": "You need to test 1RM every week.",
+      "warning": "Do not attempt maximal lifts without experience, safeties and sound technique.",
+      "related_topics_raw": [
+        "RPE",
+        "training_max",
+        "percentages"
+      ],
+      "related_topics": [
+        "RPE",
+        "training_max",
+        "percentages"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "High definition; test protocol individual",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Technical",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-035",
+      "question": "What is the difference between HIIT and steady-state cardio?",
+      "alternative_phrasings": [
+        "Intervals vs jogging",
+        "Which cardio burns more?"
+      ],
+      "keywords": [
+        "HIIT",
+        "steady state",
+        "intervals",
+        "cardio"
+      ],
+      "intent_label": "comparison",
+      "intent_category": "comparison",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "HIIT uses repeated hard efforts with recovery; steady-state cardio maintains a more consistent intensity.",
+      "detailed_explanation": "Both can improve fitness. HIIT is time-efficient but has a higher fatigue cost; choice depends on health, preference and goal.",
+      "practical_recommendation": "Choose a mode you can recover from and do consistently.",
+      "misconception": "HIIT is always better for fat loss.",
+      "warning": "Beginners and people with health conditions may need gradual progression and clinical guidance.",
+      "related_topics_raw": [
+        "zone2",
+        "aerobic",
+        "endurance"
+      ],
+      "related_topics": [
+        "zone2",
+        "aerobic",
+        "endurance"
+      ],
+      "source_ids": [
+        "S02"
+      ],
+      "evidence_text": "High principles",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Clear",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-036",
+      "question": "Can older adults build muscle and strength?",
+      "alternative_phrasings": [
+        "Is weightlifting safe when older?"
+      ],
+      "keywords": [
+        "older adult",
+        "ageing",
+        "strength",
+        "sarcopenia"
+      ],
+      "intent_label": "special_population",
+      "intent_category": "special_population",
+      "safety_sensitive": false,
+      "level_raw": "Older adults",
+      "levels": [],
+      "audience": [
+        "older_adults"
+      ],
+      "short_answer": "Yes. Appropriately prescribed resistance training can improve strength, muscle function and independence in older adults.",
+      "detailed_explanation": "Start from current function, medical context and confidence; progression remains important.",
+      "practical_recommendation": "Use stable exercises, suitable support and gradual loading; include balance/function when appropriate.",
+      "misconception": "Strength training is unsafe or pointless after a certain age.",
+      "warning": "Refer for assessment with significant comorbidities, falls, symptoms or limitations.",
+      "related_topics_raw": [
+        "older_adult_training",
+        "balance"
+      ],
+      "related_topics": [
+        "older_adult_training",
+        "balance"
+      ],
+      "source_ids": [
+        "S07"
+      ],
+      "evidence_text": "Professional consensus",
+      "evidence_labels": [
+        "professional_consensus"
+      ],
+      "tone_text": "Respectful",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-037",
+      "question": "Can I exercise during pregnancy?",
+      "alternative_phrasings": [
+        "Gym while pregnant",
+        "Prenatal exercise"
+      ],
+      "keywords": [
+        "pregnancy",
+        "prenatal",
+        "exercise",
+        "postpartum"
+      ],
+      "intent_label": "special_population_safety",
+      "intent_category": "special_population",
+      "safety_sensitive": true,
+      "level_raw": "Pregnant users",
+      "levels": [],
+      "audience": [
+        "pregnant_users"
+      ],
+      "short_answer": "For many uncomplicated pregnancies, physical activity is safe and desirable, but an individual clinical assessment and modifications may be needed.",
+      "detailed_explanation": "Pregnancy changes physiology and movement tolerance; complications alter recommendations.",
+      "practical_recommendation": "Encourage discussion with obstetric provider and tailor only within their guidance.",
+      "misconception": "All pregnant people must stop exercise.",
+      "warning": "Stop and seek obstetric advice for bleeding, fluid leakage, chest pain, dizziness, calf swelling, painful contractions or other warning signs.",
+      "related_topics_raw": [
+        "postpartum",
+        "medical_clearance"
+      ],
+      "related_topics": [
+        "postpartum",
+        "medical_clearance"
+      ],
+      "source_ids": [
+        "S06"
+      ],
+      "evidence_text": "Professional guidance",
+      "evidence_labels": [
+        "professional_consensus"
+      ],
+      "tone_text": "Sensitive; no jokes",
+      "max_humour_level": "H0",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-038",
+      "question": "How should I return after a long break?",
+      "alternative_phrasings": [
+        "I haven't trained in months",
+        "Restarting gym"
+      ],
+      "keywords": [
+        "returning",
+        "detrained",
+        "break",
+        "restart"
+      ],
+      "intent_label": "programme_adaptation",
+      "intent_category": "plan",
+      "safety_sensitive": false,
+      "level_raw": "Returning trainee",
+      "levels": [
+        "returning"
+      ],
+      "audience": [],
+      "short_answer": "Restart below your previous training volume and loads, then rebuild gradually as tolerance and technique return.",
+      "detailed_explanation": "Previous strength may return, but tissues, conditioning and skill may not all be at the same level.",
+      "practical_recommendation": "Use 2–3 manageable sessions and leave extra reps in reserve initially.",
+      "misconception": "Pick up exactly where you left off.",
+      "warning": "If the break followed injury, surgery or illness, follow clinician guidance.",
+      "related_topics_raw": [
+        "beginner",
+        "progression",
+        "recovery"
+      ],
+      "related_topics": [
+        "beginner",
+        "progression",
+        "recovery"
+      ],
+      "source_ids": [
+        "S09"
+      ],
+      "evidence_text": "Coaching consensus",
+      "evidence_labels": [
+        "professional_consensus",
+        "coaching_application"
+      ],
+      "tone_text": "Encouraging",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-039",
+      "question": "Do supplements replace a good diet?",
+      "alternative_phrasings": [
+        "What supplements do I need?"
+      ],
+      "keywords": [
+        "supplements",
+        "whey",
+        "creatine",
+        "vitamins"
+      ],
+      "intent_label": "nutrition_myth",
+      "intent_category": "myth_correction",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "No. Supplements cannot replace adequate food, training, sleep and recovery.",
+      "detailed_explanation": "Evidence varies by product. Creatine monohydrate and protein powder have clearer use cases than many marketed products.",
+      "practical_recommendation": "Start by identifying a real dietary or performance need; choose third-party-tested products where possible.",
+      "misconception": "More supplements mean faster results.",
+      "warning": "Avoid stimulant-heavy or unverified products; medical conditions and medications require professional advice.",
+      "related_topics_raw": [
+        "creatine",
+        "protein",
+        "caffeine"
+      ],
+      "related_topics": [
+        "creatine",
+        "protein",
+        "caffeine"
+      ],
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "evidence_text": "High principle",
+      "evidence_labels": [
+        "high_strong"
+      ],
+      "tone_text": "Matter-of-fact",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "FAQ-040",
+      "question": "How do I choose an exercise alternative?",
+      "alternative_phrasings": [
+        "What can replace squats?",
+        "No cable machine available"
+      ],
+      "keywords": [
+        "substitute",
+        "alternative exercise",
+        "equipment unavailable"
+      ],
+      "intent_label": "exercise_selection",
+      "intent_category": "how_to",
+      "safety_sensitive": false,
+      "level_raw": "All levels",
+      "levels": [
+        "all"
+      ],
+      "audience": [],
+      "short_answer": "Choose a substitute that preserves the movement pattern and training goal while fitting equipment, skill and comfort.",
+      "detailed_explanation": "A substitute need not look identical; it should provide a suitable stimulus and be safe for the user.",
+      "practical_recommendation": "Squat unavailable: leg press or goblet squat; row unavailable: supported DB row; press unavailable: push-up variation.",
+      "misconception": "Only exercises with the same muscle label are equivalent.",
+      "warning": "Do not use substitutions to mask unresolved pain.",
+      "related_topics_raw": [
+        "movement_pattern",
+        "equipment",
+        "exercise_library"
+      ],
+      "related_topics": [
+        "movement_pattern",
+        "equipment",
+        "exercise_library"
+      ],
+      "source_ids": [
+        "S01"
+      ],
+      "evidence_text": "Coaching application",
+      "evidence_labels": [
+        "coaching_application"
+      ],
+      "tone_text": "Practical",
+      "max_humour_level": null,
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    }
+  ]
+}

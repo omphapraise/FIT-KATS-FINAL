@@ -1,0 +1,356 @@
+{
+  "file": "metadata.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001+BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "id": "knowledge_base",
+      "name": "Big Kat fitness knowledge base",
+      "knowledge_version": "1.0.0",
+      "source_review_date": "2026-11-10",
+      "source_documents": [
+        {
+          "id": "BK-KB-001",
+          "title": "Fitness Science & Workout Programming Knowledge Base",
+          "control": {
+            "Document ID": "BK-KB-001",
+            "Version": "1.0 — foundational research edition",
+            "Owner": "Big Kat product / fitness knowledge team",
+            "Research completion date": "10 November 2026",
+            "Audience": "Workout-generator engineers, coaches, fitness educators and content reviewers",
+            "Use": "Educational programming support for generally healthy users; not diagnosis, treatment or clinical rehabilitation"
+          }
+        },
+        {
+          "id": "BK-AI-002",
+          "title": "Fitness AI Chatbot Knowledge & Response Database",
+          "control": {
+            "Document ID": "BK-AI-002",
+            "Version": "1.0 — foundational research edition",
+            "Research / review date": "10 November 2026",
+            "Audience": "Chatbot developers, prompt designers, content reviewers and fitness subject-matter experts",
+            "Primary purpose": "Answer fitness questions clearly, accurately and naturally; retrieve by keywords or full questions",
+            "Out of scope": "Diagnosis, treatment, rehabilitation prescription, clinical nutrition and emergency triage beyond safe referral"
+          }
+        }
+      ],
+      "use_scope": "Educational programming support for generally healthy users; not diagnosis, treatment or clinical rehabilitation (BK-KB-001).",
+      "files": [
+        "abbreviations.json",
+        "body_composition.json",
+        "cardio.json",
+        "conversation_rules.json",
+        "equipment_strategies.json",
+        "evidence_grading.json",
+        "exercises.json",
+        "experience_levels.json",
+        "failure_fatigue.json",
+        "fitness_faq.json",
+        "generator_framework.json",
+        "goal_programming.json",
+        "humour_personality.json",
+        "hypertrophy_guidance.json",
+        "intent_categories.json",
+        "keyword_index.json",
+        "loading_variables.json",
+        "misconceptions.json",
+        "movement_patterns.json",
+        "muscle_groups.json",
+        "nutrition.json",
+        "plan_schema.json",
+        "programme_examples.json",
+        "programmes.json",
+        "recovery.json",
+        "red_flags.json",
+        "related_concepts.json",
+        "response_examples.json",
+        "safety_responses.json",
+        "sources.json",
+        "special_populations.json",
+        "splits.json",
+        "sport_demands.json",
+        "strength_powerlifting.json",
+        "substitution_rules.json",
+        "training_principles.json"
+      ],
+      "engineering_derived_fields": [
+        "exercises.json: pattern_id, equipment_tags, level_min/level_max, primary_target, alternative_ids, goal_tags",
+        "exercises.json: all EX-S### stub records (names only; no technique text)",
+        "programmes.json: structured session slots, goals/levels/equipment_profile tags and their *_basis fields",
+        "fitness_faq.json: intent_category, safety_sensitive, levels/audience, evidence_labels, max_humour_level",
+        "intent_categories.json: legacy label mapping and the two engineering-added categories",
+        "related_concepts.json: token to FAQ index",
+        "safety_responses.json: humour_level H0 on every row",
+        "abbreviations.json: selection of abbreviations taken from the Doc 2 section 4 table"
+      ],
+      "source_coverage_matrices": {
+        "BK-KB-001": [
+          {
+            "requested_area": "Anatomy, biomechanics, physiology",
+            "location": "Sections 1–2",
+            "coverage_status": "Foundational coverage; add specialist anatomy review",
+            "id": "anatomy_biomechanics_physiology",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Resistance training fundamentals",
+            "location": "Section 2",
+            "coverage_status": "Strong coverage; continue monitoring new syntheses",
+            "id": "resistance_training_fundamentals",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Experience levels / returners",
+            "location": "Section 3",
+            "coverage_status": "Practical framework; individual thresholds remain contextual",
+            "id": "experience_levels_returners",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Hypertrophy / bodybuilding",
+            "location": "Section 4",
+            "coverage_status": "Good foundations; contest prep intentionally limited",
+            "id": "hypertrophy_bodybuilding",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Strength / powerlifting",
+            "location": "Section 5",
+            "coverage_status": "Foundational; competition rules must be federation-specific",
+            "id": "strength_powerlifting",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Athletic performance / sports",
+            "location": "Section 6",
+            "coverage_status": "Sport overview only; requires sport- and position-specific evidence",
+            "id": "athletic_performance_sports",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Cardiovascular training",
+            "location": "Section 7",
+            "coverage_status": "Public health + methods; zones need individual testing/context",
+            "id": "cardiovascular_training",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Weight management / general fitness",
+            "location": "Section 8",
+            "coverage_status": "Education only; no clinical weight-loss prescription",
+            "id": "weight_management_general_fitness",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Exercise reference library",
+            "location": "Section 9",
+            "coverage_status": "Starter set of 24; production needs a much larger reviewed catalogue",
+            "id": "exercise_reference_library",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Home / limited equipment",
+            "location": "Section 10",
+            "coverage_status": "Covered at principle level and in examples",
+            "id": "home_limited_equipment",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Nutrition / supplements",
+            "location": "Section 11",
+            "coverage_status": "Foundational; clinical nutrition excluded",
+            "id": "nutrition_supplements",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Recovery / load",
+            "location": "Section 12",
+            "coverage_status": "Foundational; wearable metrics not treated as diagnostic",
+            "id": "recovery_load",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Special populations / safety",
+            "location": "Section 13",
+            "coverage_status": "Guardrails included; specialist protocols need clinician review",
+            "id": "special_populations_safety",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Complete programmes",
+            "location": "Section 14",
+            "coverage_status": "11 templates; not exhaustive and not user-specific",
+            "id": "complete_programmes",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          },
+          {
+            "requested_area": "Generator logic",
+            "location": "Section 15",
+            "coverage_status": "Decision framework; needs product validation and QA",
+            "id": "generator_logic",
+            "source_ids": [],
+            "provenance": {
+              "document": "BK-KB-001",
+              "section": "16"
+            }
+          }
+        ],
+        "BK-AI-002": [
+          {
+            "requested_area": "Beginner training",
+            "location": "FAQ-001 to FAQ-008, FAQ-031",
+            "coverage_status": "Good foundational coverage"
+          },
+          {
+            "requested_area": "Hypertrophy / bodybuilding",
+            "location": "FAQ-004, 009–012, 032–033",
+            "coverage_status": "Good; expand muscle-specific advanced FAQs"
+          },
+          {
+            "requested_area": "Strength / powerlifting",
+            "location": "FAQ-007, 021–023, 033–034",
+            "coverage_status": "Foundational; add competition rule and peaking FAQs"
+          },
+          {
+            "requested_area": "Athletic performance",
+            "location": "FAQ-017–019 and sport links in Document 1",
+            "coverage_status": "Partial; sport-specific FAQ bank required"
+          },
+          {
+            "requested_area": "Cardio / conditioning",
+            "location": "FAQ-017–019, 035",
+            "coverage_status": "Good foundation; add modality-specific training questions"
+          },
+          {
+            "requested_area": "Nutrition / supplements",
+            "location": "FAQ-015–016, 020, 029, 039",
+            "coverage_status": "Foundational; clinical nutrition intentionally excluded"
+          },
+          {
+            "requested_area": "Recovery / health",
+            "location": "FAQ-014, 024–026, 030",
+            "coverage_status": "Good safety-aware base"
+          },
+          {
+            "requested_area": "Special populations",
+            "location": "FAQ-036–038",
+            "coverage_status": "Partial; add disability-specific and condition-specific records with expert review"
+          },
+          {
+            "requested_area": "Misconceptions",
+            "location": "Section 5 and FAQ-013–017, 027, 039",
+            "coverage_status": "Good common-myth starter set"
+          },
+          {
+            "requested_area": "Keyword understanding",
+            "location": "Section 4",
+            "coverage_status": "Starter dictionary; production should add spelling variants and analytics-derived queries"
+          },
+          {
+            "requested_area": "Humour / personality",
+            "location": "Section 6",
+            "coverage_status": "Framework and examples included"
+          },
+          {
+            "requested_area": "Safety",
+            "location": "Section 7",
+            "coverage_status": "Core escalation rules; requires local clinical and legal review"
+          }
+        ]
+      },
+      "source_unresolved_gaps": {
+        "BK-KB-001": [
+          "How should the platform count indirect sets (e.g., triceps contribution during pressing) in a way that is useful but not falsely precise?",
+          "What progression and fatigue markers are reliable and practical for novice users who do not know RIR/RPE?",
+          "Which sport-specific modules are required for each position/event and local competition calendar?",
+          "What clinical escalation pathways and South African emergency/healthcare resources should be displayed in-app?",
+          "How will the exercise library be independently reviewed for technique, accessibility, equipment safety and copyright-safe instructional media?",
+          "How should the generator account for sex, age, body size, disability and socioeconomic equipment access without stereotyping or overfitting?"
+        ],
+        "BK-AI-002": [
+          "Which South African clinical and emergency-care references should be integrated, and who owns updates?",
+          "What local language variants, slang and spelling patterns appear in Big Kat's actual user queries?",
+          "How will the system handle user-provided health data, consent, retention and privacy obligations?",
+          "Which clinical and sports-medicine experts will approve special-population content?",
+          "How will retrieval confidence be measured, and what threshold triggers a clarification rather than an answer?",
+          "How will the chatbot avoid over-personalising from unreliable or stale training logs?",
+          "Which questions should be answered by static FAQ, workout-plan generator, connected data or human professional referral?"
+        ]
+      },
+      "source_methodology": {
+        "BK-KB-001": [
+          "Method: targeted evidence search on 10 November 2026 prioritising major consensus statements, public-health guidance, systematic reviews/meta-analyses and position stands. The most influential current adult resistance-training source identified was the 2026 ACSM overview of 137 systematic reviews (>30,000 participants), supplemented by WHO physical-activity guidance, a 2023 network meta-analysis, ISSN protein/creatine position stands, NSCA older-adult/youth guidance and ACOG pregnancy guidance. [S01–S10]",
+          "Limitations: this is a curated foundational synthesis, not a preregistered systematic review. The source set is strongest for general adult resistance training, public-health activity, protein/creatine basics and selected special populations. Evidence for specific sport programming, detailed injury rehabilitation, disability-specific adaptation, advanced peaking, hydration protocols and many individual exercises requires additional targeted reviews. The 2025 dose-response meta-regression [S11] is recent and informative but should be checked against full text, methods and subsequent replications before it drives automated dose limits."
+        ],
+        "BK-AI-002": [
+          "The FAQ bank was developed by mapping common beginner, resistance-training, nutrition, cardio, recovery and safety intents to the selected evidence base. The content uses consensus and review literature where available, and coaching application where a single universally optimal answer does not exist. The FAQ set is a structured starter library, not a claim that every community question has been exhaustively sampled.",
+          "Community research limitation: this edition does not present Reddit or other forum anecdotes as scientific evidence. Community-derived language and questions should be collected in a separate discovery phase, tagged as user-reported experience, and never promoted to evidence without independent verification.",
+          "Versioning: review high-risk safety and special-population content at least annually and whenever major guidelines change. Review exercise science and supplement records when major position stands, systematic reviews or regulatory warnings appear."
+        ]
+      },
+      "source_scope_note": "Important scope note: the 2026 ACSM resistance-training overview is a major recent synthesis of 137 systematic reviews and more than 30,000 participants, with searches current to October 2024. It concerns generally healthy adults; it does not replace clinical assessment or specialist programming for medical conditions, pregnancy complications, rehabilitation, or competitive sport-specific demands. [S01]",
+      "sources_verified_by_engineering": false,
+      "provenance": {
+        "document": "BK-KB-001 and BK-AI-002",
+        "section": "document control and methodology"
+      }
+    }
+  ]
+}

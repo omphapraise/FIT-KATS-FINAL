@@ -1,0 +1,56 @@
+{
+  "file": "experience_levels.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "level": "Beginner",
+      "typical_characteristics": "New to structured training or low skill/consistency",
+      "programming_priorities": "2–3 sessions/week; simple full-body plan; stable movements; low-to-moderate volume; learn technique; easy progression",
+      "avoid": "Complex periodisation, frequent max testing, excessive exercise variety",
+      "id": "beginner",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "3"
+      }
+    },
+    {
+      "level": "Intermediate",
+      "typical_characteristics": "Consistent training history; progress slower; understands core lifts",
+      "programming_priorities": "Individualise volume, split, exercise selection; use RIR/RPE; monitor performance; planned variation where useful",
+      "avoid": "Assuming more days/sets automatically means better",
+      "id": "intermediate",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "3"
+      }
+    },
+    {
+      "level": "Advanced",
+      "typical_characteristics": "Long training history; high skill; smaller gains; needs precise stimulus",
+      "programming_priorities": "Specialisation, carefully managed volume/intensity, lift-specific practice, fatigue tracking, blocks",
+      "avoid": "Copying elite programmes without matching capacity or context",
+      "id": "advanced",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "3"
+      }
+    },
+    {
+      "level": "Returning trainee",
+      "typical_characteristics": "Previously trained but detrained after a break",
+      "programming_priorities": "Rebuild frequency and volume gradually; start below remembered loads; reassess skill and tolerance",
+      "avoid": "Resuming old peak loads or full previous volume immediately",
+      "id": "returning_trainee",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "3"
+      }
+    }
+  ]
+}

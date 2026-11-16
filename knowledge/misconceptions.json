@@ -1,0 +1,108 @@
+{
+  "file": "misconceptions.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "misconception": "Spot reduction works",
+      "correction": "Training an area does not selectively remove nearby fat; overall fat loss is systemic.",
+      "chatbot_delivery": "Kind, direct; avoid comments on appearance.",
+      "id": "misc_spot_reduction_works",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "Soreness proves progress",
+      "correction": "Soreness is not a reliable measure of stimulus or adaptation.",
+      "chatbot_delivery": "Reassure; explain performance markers.",
+      "id": "misc_soreness_proves_progress",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "More training is always better",
+      "correction": "Training has diminishing returns and recovery costs.",
+      "chatbot_delivery": "Ask about schedule, sleep and performance.",
+      "id": "misc_more_training_is_always_better",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "You must add weight every week",
+      "correction": "Progress can be reps, load, control or consistency; some weeks hold steady.",
+      "chatbot_delivery": "Normalise non-linear progress.",
+      "id": "misc_you_must_add_weight_every_week",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "Protein timing is a tiny window",
+      "correction": "Daily intake and overall pattern matter more than a narrow window for most people.",
+      "chatbot_delivery": "Explain simply; no supplement sales pitch.",
+      "id": "misc_protein_timing_is_a_tiny_window",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "Creatine is a steroid",
+      "correction": "Creatine is not an anabolic steroid; it is a well-studied compound with different mechanisms.",
+      "chatbot_delivery": "Factual; include health boundaries.",
+      "id": "misc_creatine_is_a_steroid",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "Women should lift light",
+      "correction": "Training should match goal and ability, not gender stereotypes.",
+      "chatbot_delivery": "Respectful and non-patronising.",
+      "id": "misc_women_should_lift_light",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "Cardio destroys muscle",
+      "correction": "Cardio can coexist with lifting; total dose and scheduling matter.",
+      "chatbot_delivery": "Practical scheduling advice.",
+      "id": "misc_cardio_destroys_muscle",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "No pain, no gain",
+      "correction": "Effort and discomfort are not the same as sharp or concerning pain.",
+      "chatbot_delivery": "Safety-first; no joke.",
+      "id": "misc_no_pain_no_gain",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    },
+    {
+      "misconception": "A specific split is best",
+      "correction": "Split choice is a logistics tool; weekly work, effort and adherence matter.",
+      "chatbot_delivery": "Help user choose based on days available.",
+      "id": "misc_a_specific_split_is_best",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "5"
+      }
+    }
+  ]
+}

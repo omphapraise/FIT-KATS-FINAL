@@ -1,0 +1,104 @@
+{
+  "file": "generator_framework.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-KB-001",
+  "source_review_date": "2026-11-10",
+  "records": [
+    {
+      "step": "1. Safety gate",
+      "inputs_decision": "Age band; pregnancy/postpartum; known conditions; pain/injury; red-flag symptoms; clinician restrictions",
+      "output": "Proceed, adapt, ask, or stop and refer",
+      "id": "step_1_safety_gate",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 1
+    },
+    {
+      "step": "2. Goal classification",
+      "inputs_decision": "Hypertrophy, strength, fat loss/general health, endurance, power, sport, mobility/function",
+      "output": "Primary and secondary goal",
+      "id": "step_2_goal_classification",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 2
+    },
+    {
+      "step": "3. User capacity",
+      "inputs_decision": "Training age, current ability, adherence history, return from break",
+      "output": "Beginner/intermediate/advanced/returning classification",
+      "id": "step_3_user_capacity",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 3
+    },
+    {
+      "step": "4. Logistics",
+      "inputs_decision": "Days/week, session duration, equipment, location, schedule",
+      "output": "Feasible split and session structure",
+      "id": "step_4_logistics",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 4
+    },
+    {
+      "step": "5. Preferences",
+      "inputs_decision": "Likes/dislikes, exercise confidence, accessibility, substitutions",
+      "output": "Exercise candidate pool",
+      "id": "step_5_preferences",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 5
+    },
+    {
+      "step": "6. Dose",
+      "inputs_decision": "Sets, reps, effort, rest, cardio, weekly frequency",
+      "output": "Starting programme dose",
+      "id": "step_6_dose",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 6
+    },
+    {
+      "step": "7. Progression",
+      "inputs_decision": "Logging, RIR/RPE, double progression, review interval",
+      "output": "Rules for adding/reducing load or volume",
+      "id": "step_7_progression",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 7
+    },
+    {
+      "step": "8. Monitoring",
+      "inputs_decision": "Completion, performance, pain, fatigue, enjoyment, recovery",
+      "output": "Adaptation recommendations and reassessment",
+      "id": "step_8_monitoring",
+      "source_ids": [],
+      "provenance": {
+        "document": "BK-KB-001",
+        "section": "15"
+      },
+      "order": 8
+    }
+  ]
+}

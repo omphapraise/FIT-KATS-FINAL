@@ -1,0 +1,127 @@
+{
+  "file": "abbreviations.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "note": "Only abbreviations listed in Doc 2 section 4. Expansions are the source's canonical concept names; none added. No misspelling or slang lists exist in the source.",
+  "records": [
+    {
+      "id": "abbr_bp",
+      "abbreviation": "BP",
+      "keyword_record": "kw_bench",
+      "canonical_concepts": [
+        "bench_press",
+        "horizontal_push",
+        "chest_strength"
+      ],
+      "ambiguous": true,
+      "ambiguity_action": "BP may mean blood pressure in health context; disambiguate.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_rpe",
+      "abbreviation": "RPE",
+      "keyword_record": "kw_rpe",
+      "canonical_concepts": [
+        "effort_rating",
+        "reps_in_reserve"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Explain simply; ask whether user means lifting or cardio RPE.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_rir",
+      "abbreviation": "RIR",
+      "keyword_record": "kw_rpe",
+      "canonical_concepts": [
+        "effort_rating",
+        "reps_in_reserve"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Explain simply; ask whether user means lifting or cardio RPE.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_ppl",
+      "abbreviation": "PPL",
+      "keyword_record": "kw_ppl",
+      "canonical_concepts": [
+        "push_pull_legs_split"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Ask how many days they can train before prescribing.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_doms",
+      "abbreviation": "DOMS",
+      "keyword_record": "kw_doms",
+      "canonical_concepts": [
+        "delayed_onset_muscle_soreness"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Differentiate normal delayed soreness from acute pain/injury.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_pr",
+      "abbreviation": "PR",
+      "keyword_record": "kw_pr",
+      "canonical_concepts": [
+        "personal_record",
+        "personal_best"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Could refer to any lift or performance; ask which exercise.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_pb",
+      "abbreviation": "PB",
+      "keyword_record": "kw_pr",
+      "canonical_concepts": [
+        "personal_record",
+        "personal_best"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Could refer to any lift or performance; ask which exercise.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "abbr_z2",
+      "abbreviation": "Z2",
+      "keyword_record": "kw_zone_2",
+      "canonical_concepts": [
+        "low_intensity_aerobic_training"
+      ],
+      "ambiguous": false,
+      "ambiguity_action": "Zone definitions vary by model; do not return a universal heart rate.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    }
+  ]
+}

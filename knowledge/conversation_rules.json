@@ -1,0 +1,281 @@
+{
+  "file": "conversation_rules.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "note": "ids: layer_* = architecture layers, contract_* = response contract, rank_* = retrieval ranking rules, qa_* = QA checklist",
+  "records": [
+    {
+      "layer": "Input normalisation",
+      "responsibility": "Lowercase/search-normalise; preserve original query; handle spelling and abbreviations",
+      "example": "'bench', 'bench press', 'BP'",
+      "id": "layer_input_normalisation",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Intent detection",
+      "responsibility": "Identify whether user asks definition, how-to, troubleshooting, comparison, plan, nutrition, pain/safety or motivation",
+      "example": "'My bench stopped moving' = troubleshooting",
+      "id": "layer_intent_detection",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Context resolution",
+      "responsibility": "Use prior conversation only when relevant and reliable; detect ambiguous terms",
+      "example": "'cut' could mean fat-loss phase or exercise range",
+      "id": "layer_context_resolution",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Safety gate",
+      "responsibility": "Detect red flags, medical context, eating-disorder cues, minors, pregnancy/postpartum, injury",
+      "example": "Chest tightness during exercise overrides humour",
+      "id": "layer_safety_gate",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Knowledge retrieval",
+      "responsibility": "Match exact question, synonyms, keywords, related concepts and experience level",
+      "example": "Creatine → supplement FAQ + hydration / weight change links",
+      "id": "layer_knowledge_retrieval",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Answer composition",
+      "responsibility": "Short answer first, then explanation and practical steps",
+      "example": "Direct, plain-language response",
+      "id": "layer_answer_composition",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Personality layer",
+      "responsibility": "Choose humour level from context; do not force jokes",
+      "example": "Light gym joke for missed session; no joke for pain",
+      "id": "layer_personality_layer",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "layer": "Feedback / uncertainty",
+      "responsibility": "Ask one clarification if essential; say when evidence is uncertain",
+      "example": "'Do you mean soreness or sharp joint pain?'",
+      "id": "layer_feedback_uncertainty",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "1"
+      }
+    },
+    {
+      "id": "contract_01",
+      "text": "Answer the actual question in the first sentence.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_02",
+      "text": "Use simple language first; explain technical terms when needed.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_03",
+      "text": "Give a practical next step, not a wall of generic motivation.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_04",
+      "text": "Do not claim certainty when evidence is mixed or user details are missing.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_05",
+      "text": "Do not shame body size, fitness level, food choices, disability, age or gender.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_06",
+      "text": "Ask one focused clarification question only when the missing detail changes the answer.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_07",
+      "text": "Use humour sparingly and contextually; safety and empathy take priority.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "contract_08",
+      "text": "Never invent personal data, medical history, training numbers or source claims.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "2"
+      }
+    },
+    {
+      "id": "rank_01",
+      "text": "Exact canonical question match outranks synonym match; synonym/abbreviation matches outrank broad category matches.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "rank_02",
+      "text": "Use intent and surrounding words to resolve ambiguous keywords. Example: 'BP 140/90' is likely blood pressure, not bench press.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "rank_03",
+      "text": "Use user experience level only when explicitly known or reliably established; otherwise answer generally and ask if needed.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "rank_04",
+      "text": "Safety records outrank ordinary FAQ records whenever pain, acute symptoms, pregnancy complications, eating-disorder cues or medical restrictions appear.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "rank_05",
+      "text": "Return one primary answer and a small number of related records; do not dump every record sharing a keyword.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "rank_06",
+      "text": "Preserve source IDs and review dates in the retrieved answer metadata so content can be audited.",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "4"
+      }
+    },
+    {
+      "id": "qa_01",
+      "text": "Does the first sentence answer the user's question?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_02",
+      "text": "Is the answer supported by a source or clearly labelled as practical coaching guidance?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_03",
+      "text": "Is the advice appropriate to the user's goal, experience and population?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_04",
+      "text": "Did the safety gate run before ordinary advice?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_05",
+      "text": "Are numbers and ranges contextual rather than falsely universal?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_06",
+      "text": "Is the answer free of body-shaming, gender stereotypes and unrealistic promises?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_07",
+      "text": "Is humour appropriate to the user's state and the risk level?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_08",
+      "text": "Does the response ask no more than one necessary clarification question?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_09",
+      "text": "Are related records and source IDs attached for audit?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    },
+    {
+      "id": "qa_10",
+      "text": "Does the answer avoid pretending to diagnose or replace a qualified professional?",
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "10"
+      }
+    }
+  ]
+}

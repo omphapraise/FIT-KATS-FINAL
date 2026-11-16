@@ -1,0 +1,966 @@
+{
+  "file": "related_concepts.json",
+  "knowledge_version": "1.0.0",
+  "source_document": "BK-AI-002",
+  "source_review_date": "2026-11-10",
+  "note": "Related-topic tokens are concept labels, not FAQ IDs. 'training max' (with space) in the source is normalised to 'training_max' and appears alongside an existing 'training_max' token.",
+  "records": [
+    {
+      "id": "aerobic",
+      "listed_as_related_by": [
+        "FAQ-018",
+        "FAQ-035"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-019"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "autoregulation",
+      "listed_as_related_by": [
+        "FAQ-007"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "balance",
+      "listed_as_related_by": [
+        "FAQ-036"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "beginner",
+      "listed_as_related_by": [
+        "FAQ-038"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-001"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "body_composition",
+      "listed_as_related_by": [
+        "FAQ-013"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "bodybuilding",
+      "listed_as_related_by": [
+        "FAQ-033"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-009"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "bracing",
+      "listed_as_related_by": [
+        "FAQ-021",
+        "FAQ-023"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "caffeine",
+      "listed_as_related_by": [
+        "FAQ-039"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "calorie_deficit",
+      "listed_as_related_by": [
+        "FAQ-015"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "carbs",
+      "listed_as_related_by": [
+        "FAQ-020"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "core",
+      "listed_as_related_by": [
+        "FAQ-013"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "creatine",
+      "listed_as_related_by": [
+        "FAQ-039"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-016"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "deload",
+      "listed_as_related_by": [
+        "FAQ-030"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-026"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "double_progression",
+      "listed_as_related_by": [
+        "FAQ-003"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "dumbbell_program",
+      "listed_as_related_by": [
+        "FAQ-028"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "electrolytes",
+      "listed_as_related_by": [
+        "FAQ-029"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "endurance",
+      "listed_as_related_by": [
+        "FAQ-029",
+        "FAQ-035"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "energy_balance",
+      "listed_as_related_by": [
+        "FAQ-013",
+        "FAQ-032"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "equipment",
+      "listed_as_related_by": [
+        "FAQ-031",
+        "FAQ-040"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-028"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "exercise_library",
+      "listed_as_related_by": [
+        "FAQ-040"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "exercise_selection",
+      "listed_as_related_by": [
+        "FAQ-001"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "exercise_substitution",
+      "listed_as_related_by": [
+        "FAQ-025"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "experience",
+      "listed_as_related_by": [
+        "FAQ-031"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "failure",
+      "listed_as_related_by": [
+        "FAQ-006"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-005"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "fatigue",
+      "listed_as_related_by": [
+        "FAQ-005",
+        "FAQ-008",
+        "FAQ-012",
+        "FAQ-014",
+        "FAQ-026"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-030"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "frequency",
+      "listed_as_related_by": [
+        "FAQ-010",
+        "FAQ-011"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-002"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "full_body",
+      "listed_as_related_by": [
+        "FAQ-002",
+        "FAQ-011"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "goal",
+      "listed_as_related_by": [
+        "FAQ-031"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "goblet_squat",
+      "listed_as_related_by": [
+        "FAQ-021"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "heart_rate",
+      "listed_as_related_by": [
+        "FAQ-018"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "heat",
+      "listed_as_related_by": [
+        "FAQ-029"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "HIIT",
+      "listed_as_related_by": [
+        "FAQ-017",
+        "FAQ-018"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-035"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "hinge",
+      "listed_as_related_by": [
+        "FAQ-023"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "horizontal_push",
+      "listed_as_related_by": [
+        "FAQ-022"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "hydration",
+      "listed_as_related_by": [
+        "FAQ-016",
+        "FAQ-020"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-029"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "hypertrophy",
+      "listed_as_related_by": [
+        "FAQ-004",
+        "FAQ-008",
+        "FAQ-027",
+        "FAQ-032"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-009",
+        "FAQ-033"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "indirect_sets",
+      "listed_as_related_by": [
+        "FAQ-010"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "injury",
+      "listed_as_related_by": [
+        "FAQ-025"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "leg_press",
+      "listed_as_related_by": [
+        "FAQ-021"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "load",
+      "listed_as_related_by": [
+        "FAQ-006"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "medical_clearance",
+      "listed_as_related_by": [
+        "FAQ-037"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "medical_referral",
+      "listed_as_related_by": [
+        "FAQ-025"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "movement_pattern",
+      "listed_as_related_by": [
+        "FAQ-040"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "older_adult_training",
+      "listed_as_related_by": [
+        "FAQ-036"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "pain",
+      "listed_as_related_by": [
+        "FAQ-014"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-025"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "percentages",
+      "listed_as_related_by": [
+        "FAQ-034"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "plateau",
+      "listed_as_related_by": [
+        "FAQ-003",
+        "FAQ-026"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-012"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "postpartum",
+      "listed_as_related_by": [
+        "FAQ-037"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "powerlifting",
+      "listed_as_related_by": [
+        "FAQ-023",
+        "FAQ-033"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "PPL",
+      "listed_as_related_by": [
+        "FAQ-002",
+        "FAQ-011"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "pregnancy",
+      "listed_as_related_by": [
+        "FAQ-027"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-037"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "programming",
+      "listed_as_related_by": [
+        "FAQ-033"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "progression",
+      "listed_as_related_by": [
+        "FAQ-038"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-003"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "progressive_overload",
+      "listed_as_related_by": [
+        "FAQ-001",
+        "FAQ-012",
+        "FAQ-028"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-003"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "protein",
+      "listed_as_related_by": [
+        "FAQ-009",
+        "FAQ-016",
+        "FAQ-020",
+        "FAQ-032",
+        "FAQ-039"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-015"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "protein_foods",
+      "listed_as_related_by": [
+        "FAQ-015"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "RDL",
+      "listed_as_related_by": [
+        "FAQ-023"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "recovery",
+      "listed_as_related_by": [
+        "FAQ-002",
+        "FAQ-009",
+        "FAQ-010",
+        "FAQ-014",
+        "FAQ-017",
+        "FAQ-024",
+        "FAQ-026",
+        "FAQ-038"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-030"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "return_to_training",
+      "listed_as_related_by": [
+        "FAQ-024"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "RIR",
+      "listed_as_related_by": [
+        "FAQ-003",
+        "FAQ-004",
+        "FAQ-005",
+        "FAQ-007"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-006"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "RPE",
+      "listed_as_related_by": [
+        "FAQ-005",
+        "FAQ-006",
+        "FAQ-022",
+        "FAQ-034"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-007"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "schedule",
+      "listed_as_related_by": [
+        "FAQ-031"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "sedentary",
+      "listed_as_related_by": [
+        "FAQ-019"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "sleep",
+      "listed_as_related_by": [
+        "FAQ-012",
+        "FAQ-030"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "strength",
+      "listed_as_related_by": [
+        "FAQ-004",
+        "FAQ-008",
+        "FAQ-027"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-012",
+        "FAQ-016",
+        "FAQ-033",
+        "FAQ-036"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "strength_training",
+      "listed_as_related_by": [
+        "FAQ-019"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "supplements",
+      "listed_as_related_by": [
+        "FAQ-016"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-039"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "technique",
+      "listed_as_related_by": [
+        "FAQ-012"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-021"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "training_frequency",
+      "listed_as_related_by": [
+        "FAQ-001"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "training_max",
+      "listed_as_related_by": [
+        "FAQ-007",
+        "FAQ-034"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "triceps",
+      "listed_as_related_by": [
+        "FAQ-022"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "upper_lower",
+      "listed_as_related_by": [
+        "FAQ-002",
+        "FAQ-011"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "walking",
+      "listed_as_related_by": [
+        "FAQ-019"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "weekly_volume",
+      "listed_as_related_by": [
+        "FAQ-004",
+        "FAQ-009"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "whey",
+      "listed_as_related_by": [
+        "FAQ-015"
+      ],
+      "also_in_keywords_of": [
+        "FAQ-039"
+      ],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "WHO_activity",
+      "listed_as_related_by": [
+        "FAQ-017"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "workload",
+      "listed_as_related_by": [
+        "FAQ-030"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    },
+    {
+      "id": "zone2",
+      "listed_as_related_by": [
+        "FAQ-017",
+        "FAQ-035"
+      ],
+      "also_in_keywords_of": [],
+      "provenance": {
+        "document": "BK-AI-002",
+        "section": "3"
+      }
+    }
+  ]
+}
